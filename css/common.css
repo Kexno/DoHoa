@@ -1,0 +1,553 @@
+/* = KHAI BAO BIEN CHUNG */
+:root {
+    --logo: url("../hinh/bieu-tuong/logo-xanh-ngang.svg");
+    --mau-chinh: #7098c6;
+    --mau-phu: #a2e0e4;
+    --mau-noi: #fc94b4;
+    --mau-nen-chinh: #ffffff;
+    --mau-nen-phu: #f1f5f9;
+    --mau-chu-chinh: #586284;
+    --mau-chu-noi: #505978;
+    --mau-chu-chim: #c9d4f9;
+    --mau-chu-menu: #7098c6;
+    --mau-chu-menu-noi: #586284;
+    --nen-nut-chu-de: #a2e0e4;
+    --co-chu-tieu-de: 20pt;
+    --co-chu-noi-dung: 12pt;
+    --le-lon: 45px;
+    --le-vua: 30px;
+    --le-nho: 15px;
+    --le-hep: 5px;
+    --bo: 7.5px;
+    --dem-nut: 7.5px 15px;
+    --bong-gan: 0px 0px 20px 0px rgba(0,0,0,0.09);
+    --bong-xa: ;
+    --mau-nut-menu: #7098c6;
+    --bieu-tuong-sang: url("../hinh/bieu-tuong/");
+    --bieu-tuong-toi: url("../hinh/bieu-tuong/");
+}
+@media (min-width: 768px) {
+    :root {
+        --le-lon: 60px;
+    }
+}
+@media (min-width: 992px) {
+    :root {
+        --co-chu-tieu-de: 24pt;
+        --co-chu-noi-dung: 14pt;
+        --le-lon: 90px;
+    }
+}
+/* = Nhung gia tri se thay doi cho che do toi */
+[data-theme="dark"] {
+    --logo: url("../hinh/bieu-tuong/logo-nen-toi.svg");
+    --mau-nen-chinh: #505978;
+    --mau-nen-phu: #586284;
+    --mau-chu-chinh: #c9d4f9;
+    --mau-chu-noi: #ffffff;
+    --mau-chu-chim: #7098c6;
+    --mau-chu-menu: #c9d4f9;
+    --mau-chu-menu-noi: white;
+    --nen-nut-chu-de: #7098c6;
+    --mau-nut-menu: #c9d4f9;
+    --bieu-tuong-sang: url("../hinh/bieu-tuong/");
+    --bieu-tuong-toi: url("../hinh/bieu-tuong/");
+}
+
+/* = CAC KHUNG (CONTAINER) */
+
+.khung-co-dinh { /* danh cho thanh phan chua nhung phan tu con co dinh vi tri tren man hinh */
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+}
+.khung-ngang { /* danh cho thanh phan chieu ngang luon toan man hinh */
+    padding: 0px 15px;
+    width: 100%;
+}
+.khung-gioi-han { /* danh cho thanh phan noi dung trang */
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0px 15px;
+    width: 100%;
+    z-index: 0;
+}
+@media (min-width: 768px) {
+    .khung-ngang, .khung-gioi-han {
+        padding: 0 30px;
+    }
+}
+
+/* = CAC CLASS STYLE CHUNG*/
+
+.--nen-chinh {
+    background: var(--mau-nen-chinh);
+}
+.--nen-phu {
+    background: var(--mau-nen-phu);
+}
+.--nen-nut {
+    background: var(--mau-chinh);
+}
+.--nen-nut-noi {
+    background: var(--mau-noi);
+}
+.--dem-nut {
+    padding: var(--dem-nut);    
+}
+.--dem-hep {
+    padding: var(--le-hep);
+}
+.--dem-nho {
+    padding: var(--le-nho);
+}
+.--dem-vua {
+    padding: var(--le-vua);
+}
+.--dem-lon {
+    padding: var(--le-lon);
+}
+.--do-bong {
+    box-shadow: var(--bong-gan);
+}
+.--do-bong-hover {
+    box-shadow: var();
+}
+.nut-link {
+    border-radius: 7.5px;
+    color: white;
+    display: block;
+    font-weight: 600;
+    padding: var(--dem-nut);
+}
+.--vien-trang {
+    border: solid white 2px;
+    transition: all 0.4s;
+}
+.--vien-trang:hover {
+    background-color: white;
+    color: var(--mau-chinh);
+}
+/* = KIEU CHU */
+
+@font-face {
+    font-family: BrandonTextBold;
+    src: url("../font/icielBrandonText-Bold.ttf");
+}
+@font-face {
+    font-family: Bariol;
+    src: url("../font/SVN-Bariol.ttf");
+}
+@font-face {
+    font-family: Bariol;
+    src: url("../font/SVN-Bariol-Italic.ttf");
+    font-style: italic;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("../font/Nunito-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("../font/Nunito-Italic.ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("../font/Nunito-SemiBold.ttf");
+    font-weight: 600;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("../font/Nunito-SemiBoldItalic.ttf");
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("../font/Nunito-Bold.ttf");
+    font-weight: 700;
+}
+@font-face {
+    font-family: Nunito;
+    src: url("../font/Nunito-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+body {
+    background-color: var(--mau-nen-chinh);
+    color: var(--mau-chu-chinh);
+    font-family: Nunito, sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+}
+h1, h2, h3, h4 {
+    font-family: BrandonTextBold;
+    text-align: center;
+}
+h1 {
+    font-size: 24pt;
+}
+h2 {
+    font-size: 20pt;
+}
+h3 {
+    font-size: 16pt;
+}
+h4 {
+    font-size: 14pt;
+}
+@media (min-width: 992px) {
+    body {font-size: 14pt;}
+    h1 {font-size: 30pt;}
+    h2 {font-size: 24pt;}
+    h3 {font-size: 18pt;}
+}
+a:hover {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+img, button{
+    border-radius: 7.5px;
+}
+/* = Thanh dieu huong */
+#dieu-huong {   
+    color: var(--mau-chu-menu);
+    height: 60px;
+    padding: var(--le-nho);
+    position: absolute;
+    transition: all 0.5s;
+    z-index: 2000;
+}
+@media (min-width: 768px) {
+    #dieu-huong {
+        padding: var(--le-nho) var(--le-vua);
+    }
+}
+#logo {
+    background-image: var(--logo);
+    background-size: cover;
+    float: left;
+    height: 30px;
+    margin: 0;
+    width: 115px;
+}
+/* = nut dong mo menu */
+#nut-menu {
+    float: right;
+    height: 20px;
+    margin: 5px 0px;
+    position: relative;
+    width: 20px;
+}
+#nut-menu div {
+    border-radius: 1px;
+    height: 2px;
+    background-color: var(--mau-nut-menu);
+    left: 0;
+    position: absolute;
+    transition: all 0.4s;
+}
+#nut-menu div:nth-child(1) {
+    width: 50%;
+}
+#nut-menu div:nth-child(2) {
+    top: 9px;
+    width: 100%;
+}
+#nut-menu div:nth-child(3) {
+    bottom: 0;
+    width: 100%;
+}
+/* = menu man hinh XS SM */
+#menu-nho {
+    color: var(--mau-chu-menu);
+    font-family: Bariol;
+    height: 100%;
+    margin: 0;
+    right: -105vw;
+    padding-top: 60px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1999;
+}
+#menu-nho > div {
+    width: 250px;
+}
+#menu-nho ul {
+    padding: 0;   
+}
+#menu-nho a {
+    color: var(--mau-chu-menu);
+}
+.menu-nho__muc {
+    font-size: 20pt;
+    padding: 15px 0px;
+    text-align: center;
+    transition: all 0.4s;
+}
+#menu-nho .menu__kich-hoat {
+    color: var(--mau-chu-menu-noi);
+}
+.menu-nho__nut {
+    text-align: left;
+    transition: all 0.4s;
+}
+.menu-nho__nut:nth-child(2) {
+    margin-left: 72.5px;
+}
+.menu-nho__nut:nth-child(4) {
+    margin-left: 89px;
+}
+.menu-nho__tat-ca {
+    bottom: 18px;
+    font-size: 14pt;
+    position: absolute;
+    right: -50vw;
+    transition: all 0.4s;
+}
+.menu-phu {
+    font-size: 14pt;
+    padding: 10px 15px;
+}
+.menu-phu li {
+    padding: 5px 0px;
+}
+.menu-phu__phai {
+    text-align: right;
+}
+
+/* = menu man hinh >= md */
+#menu-lon {
+    color: var(--mau-chu-menu);
+    font-family: Bariol;
+    margin-right: 104px;
+}
+#menu-lon a {
+    color: var(--mau-chu-menu);
+    transition: all 0.4s;
+}
+.menu-lon__muc {
+    cursor: pointer;
+    font-size: 16pt;
+    float: right;
+    line-height: 26px;
+    padding: 0 var(--le-nho);
+    position: relative;
+    transition: all 0.4s;
+}
+@media (min-width: 992px) {
+    #menu-lon {
+        margin-right: 89;
+    }
+    .menu-lon__muc {
+        margin: 0 15px;
+    }
+}
+.menu-xo {
+    background-color: var(--mau-nen-chinh);
+    border-radius: 7.5px;
+    box-shadow: var(--bong-gan);
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    padding: 10px 0;
+    top: 75px;
+    transition: all 0.4s;
+}
+#xo-2 {
+    left: -22.8px;
+    width: 150px; 
+}
+#xo-1 {
+    left: -30.25px;
+    width: 140px;
+}
+.menu-xo a {
+    display: block;
+    float: none;
+    font-size: 12pt;
+    text-align: center;
+    padding: 7.5px;
+    width: 100%;
+}
+#menu-lon .menu-lon__muc:hover {
+    color: var(--mau-chu-noi);
+}
+#menu-lon a:hover {
+    color: var(--mau-chu-noi);
+}
+
+/* = nut cong tac chu de sang toi */
+#chu-de {
+    cursor: pointer;
+    margin: 0px;
+    right: 80px;
+    height: 30px;
+    position: absolute;
+    top: -30px;
+    transition: all 0.4s ease-out;
+    width: 56px;
+}
+@media (min-width: 768px) {
+    #chu-de {
+        right: 30px;
+        top: 15px;
+    }
+}
+#chu-de__an {
+    display: none;
+}
+#__cong-tac {
+    background-color: #a2e0e4;
+    border-radius: 7.5px;
+    height: 100%;
+    position: relative;
+    transition: .4s;
+    width: 100%;
+}
+#__cong-tac:before {
+    background-color: white;
+    border-radius: 6.5px;
+    content: "";
+    height: 26px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    transition: .4s;
+    width: 26px;
+}
+#__bieu-tuong-sang, #__bieu-tuong-toi {
+    background-size: cover;
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.4s;
+    width: 100%;
+}
+#__bieu-tuong-sang {
+    background-image: url("../hinh/bieu-tuong/chu-de-nen-sang.svg");
+}
+#__bieu-tuong-toi {
+    background-image: url("../hinh/bieu-tuong/chu-de-nen-toi.svg");
+    opacity: 0;
+}
+#chu-de__an:checked ~ #__cong-tac {
+    background-color: #7098c6;
+}
+#chu-de__an:checked ~ #__cong-tac:before {
+    background-color: #586284;
+    transform: translateX(26px);
+}
+#chu-de__an:checked ~ #__bieu-tuong-sang {
+    opacity: 0;
+}
+#chu-de__an:checked ~ #__bieu-tuong-toi {
+    opacity: 1;
+}
+
+/* = noi dung */
+#noi-dung {
+    min-height: 100vh;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--mau-nen-phu);
+    font-size: 11pt;
+    margin-top: var(--le-lon);
+    padding-top: var(--le-lon);
+    text-align: justify;
+    width: 100%;
+}
+footer h4 {
+    margin-bottom: 0;
+    
+}
+.footer-phai {
+    height: 100%;
+}
+@media (max-width: 913px) {
+    .footer-phai {
+        padding-bottom: 22px;
+    }
+}
+.muc-thong-tin {
+    padding-bottom: 15px;
+}
+.muc-thong-tin img {
+    padding: 2px 0px 0px 15px;
+}
+@media (min-width: 400px) {
+    .footer-phai__phai {
+        padding-right: 10vw;
+    }    
+}
+@media (min-width: 500px) {
+    .footer-phai__phai {
+        padding-right: 15vw;
+    }    
+}
+@media (min-width: 576px) {
+    .footer-phai__phai {
+        padding-right: 20vw;
+    }    
+}
+@media (min-width: 768px) {
+    .footer-phai__phai {
+        padding-right: 15px;
+    }    
+}
+.footer-phai__phai img {
+    padding-left: 0;
+}
+.muc-thong-tin img:nth-child(2) {
+    padding-left: 50px;
+}
+.footer__phan-cach {
+    border-radius: 0.5px;
+    background-color: var(--mau-chu-chinh);
+    height: 1px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+@media (min-width: 768px) {
+    .footer__phan-cach {
+        margin-top: 35px;
+    }
+}
+@media (min-width: 992px) {
+    .footer__phan-cach {
+        margin-top: 60px;
+    }
+}
+.footer__ban-quyen {
+    text-align: center;
+    padding-bottom: var(--le-hep);
+    padding-top: var(--le-hep);
+}
+
+/* = MAN HINH NHO VUA TRO LEN */
+@media (min-width: 576px) {
+    
+}
+
+/* = MAN HINH TRUNG BINH TRO LEN */
+
+
+/* = MAN HINH LON TRO LEN */
+
+
+/* = MAN HINH RONG */
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,61 @@
+#noi-dung {
+    text-align: justify;
+}
+#banner {
+    background-image: url("../hinh/banner/TrangChu.svg");
+    background-position: top left;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    padding-bottom: 42px;
+    padding-top: 60px;
+    text-align: center;
+    z-index: 0;
+}
+#banner__khung {
+    height: 100%;
+        z-index: 0;
+}
+#banner__tieu-de {
+    margin: 0;
+    line-height: 1.5;
+        z-index: 0;
+}
+#banner__mo-ta {
+    font-family: Nunito;
+    font-weight: 400;
+    margin: 20px 0 90px 0;
+}
+#cuon-xuong {
+    height: auto;
+    bottom: 24px;
+    margin-left: -21px;
+    padding: 0;
+    position: absolute;
+}
+section {
+    padding-top: var(--le-lon);
+}
+@media (min-width: 992px) {
+    #banner {
+        padding-bottom: 57px;
+    }
+    h3 {font-size: 20pt;}
+    #cuon-xuong {
+        bottom: 39px;
+    }
+}
+.thong-tin {
+    height: 100%;
+}
+h2 {
+    margin-bottom: 30px;
+}
+#noi-dung .nut-link {
+    margin-top: var(--le-lon);
+}
+@media (min-width: 1200px) {
+    #noi-dung .nut-link {
+        margin-top: var(--le-vua);
+    }
+}
