@@ -1,4 +1,5 @@
 /* = KHAI BAO BIEN CHUNG */
+
 :root {
     --logo: url("../hinh/bieu-tuong/logo-xanh-ngang.svg");
     --mau-chinh: #7098c6;
@@ -38,7 +39,9 @@
         --le-lon: 90px;
     }
 }
+
 /* = Nhung gia tri se thay doi cho che do toi */
+
 [data-theme="dark"] {
     --logo: url("../hinh/bieu-tuong/logo-nen-toi.svg");
     --mau-nen-chinh: #505978;
@@ -80,56 +83,6 @@
     }
 }
 
-/* = CAC CLASS STYLE CHUNG*/
-
-.--nen-chinh {
-    background: var(--mau-nen-chinh);
-}
-.--nen-phu {
-    background: var(--mau-nen-phu);
-}
-.--nen-nut {
-    background: var(--mau-chinh);
-}
-.--nen-nut-noi {
-    background: var(--mau-noi);
-}
-.--dem-nut {
-    padding: var(--dem-nut);    
-}
-.--dem-hep {
-    padding: var(--le-hep);
-}
-.--dem-nho {
-    padding: var(--le-nho);
-}
-.--dem-vua {
-    padding: var(--le-vua);
-}
-.--dem-lon {
-    padding: var(--le-lon);
-}
-.--do-bong {
-    box-shadow: var(--bong-gan);
-}
-.--do-bong-hover {
-    box-shadow: var();
-}
-.nut-link {
-    border-radius: 7.5px;
-    color: white;
-    display: block;
-    font-weight: 600;
-    padding: var(--dem-nut);
-}
-.--vien-trang {
-    border: solid white 2px;
-    transition: all 0.4s;
-}
-.--vien-trang:hover {
-    background-color: white;
-    color: var(--mau-chinh);
-}
 /* = KIEU CHU */
 
 @font-face {
@@ -207,16 +160,60 @@ h4 {
     h2 {font-size: 24pt;}
     h3 {font-size: 18pt;}
 }
-a:hover {
-    text-decoration: none;
+
+/* = CAC CLASS STYLE CHUNG*/
+
+.--nen-chinh {
+    background: var(--mau-nen-chinh);
 }
-li {
-    list-style: none;
+.--nen-phu {
+    background: var(--mau-nen-phu);
 }
-img, button{
+.--nen-nut {
+    background: var(--mau-chinh);
+}
+.--nen-nut-noi {
+    background: var(--mau-noi);
+}
+.--dem-nut {
+    padding: var(--dem-nut);    
+}
+.--dem-hep {
+    padding: var(--le-hep);
+}
+.--dem-nho {
+    padding: var(--le-nho);
+}
+.--dem-vua {
+    padding: var(--le-vua);
+}
+.--dem-lon {
+    padding: var(--le-lon);
+}
+.--do-bong {
+    box-shadow: var(--bong-gan);
+}
+.--do-bong-hover {
+    box-shadow: var();
+}
+.nut-link {
     border-radius: 7.5px;
+    color: white;
+    display: block;
+    font-weight: 600;
+    padding: var(--dem-nut);
 }
+.--vien-trang {
+    border: solid white 2px;
+    transition: all 0.4s;
+}
+.--vien-trang:hover {
+    background-color: white;
+    color: var(--mau-chinh);
+}
+
 /* = Thanh dieu huong */
+
 #dieu-huong {   
     color: var(--mau-chu-menu);
     height: 60px;
@@ -238,7 +235,9 @@ img, button{
     margin: 0;
     width: 115px;
 }
+
 /* = nut dong mo menu */
+
 #nut-menu {
     float: right;
     height: 20px;
@@ -265,7 +264,9 @@ img, button{
     bottom: 0;
     width: 100%;
 }
-/* = menu man hinh XS SM */
+
+/* = menu man hinh dien thoai */
+
 #menu-nho {
     color: var(--mau-chu-menu);
     font-family: Bariol;
@@ -324,7 +325,8 @@ img, button{
     text-align: right;
 }
 
-/* = menu man hinh >= md */
+/* = menu man hinh trung binh & lon */
+
 #menu-lon {
     color: var(--mau-chu-menu);
     font-family: Bariol;
@@ -335,7 +337,7 @@ img, button{
     transition: all 0.4s;
 }
 .menu-lon__muc {
-    cursor: pointer;
+    cursor: pointer; outline: solid 1px red;
     font-size: 16pt;
     float: right;
     line-height: 26px;
@@ -356,7 +358,6 @@ img, button{
     border-radius: 7.5px;
     box-shadow: var(--bong-gan);
     display: none;
-    overflow: hidden;
     position: absolute;
     padding: 10px 0;
     top: 75px;
@@ -378,6 +379,13 @@ img, button{
     padding: 7.5px;
     width: 100%;
 }
+.menu-xo__an {
+    height: 35px; outline: solid 1px red;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -35px;
+}
 #menu-lon .menu-lon__muc:hover {
     color: var(--mau-chu-noi);
 }
@@ -386,6 +394,7 @@ img, button{
 }
 
 /* = nut cong tac chu de sang toi */
+
 #chu-de {
     cursor: pointer;
     margin: 0px;
@@ -455,6 +464,7 @@ img, button{
 }
 
 /* = noi dung */
+
 #noi-dung {
     min-height: 100vh;
 }
@@ -536,18 +546,14 @@ footer h4 {
     padding-top: var(--le-hep);
 }
 
-/* = MAN HINH NHO VUA TRO LEN */
-@media (min-width: 576px) {
-    
+/* = Mot so dinh kieu chung khac */
+
+a:hover {
+    text-decoration: none;
 }
-
-/* = MAN HINH TRUNG BINH TRO LEN */
-
-
-/* = MAN HINH LON TRO LEN */
-
-
-/* = MAN HINH RONG */
-@media (min-width: 1200px) {
-    
+li {
+    list-style: none;
+}
+img, button{
+    border-radius: 7.5px;
 }

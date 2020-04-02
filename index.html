@@ -40,6 +40,7 @@
             <div class="menu-lon__muc menu-lon__nut">
               Vật tư
               <div class="menu-xo" id="xo-1">
+                <div class="menu-xo__an"></div>
                 <a href="#">Xem tất cả</a>
                 <a href="#">Máy ngành in</a>
                 <a href="#">Khung in lụa</a>
@@ -56,6 +57,7 @@
             <div class="menu-lon__muc menu-lon__nut">
               Gia công
               <div class="menu-xo" id="xo-2">
+                <div class="menu-xo__an"></div>
                 <a href="#">Xem tất cả</a>
                 <a href="#">Căng khung lụa</a>
                 <a href="#">In backlite film</a>
@@ -296,14 +298,14 @@
 
       <script>
 
-        /* Thay doi che do sang toi */
+        /* Nut cong tac thay doi che do sang toi */
         const chuDe = document.querySelector('#chu-de__an');
         const chuDeHien = localStorage.getItem('theme');
         if (chuDeHien) {
             document.documentElement.setAttribute('data-theme', chuDeHien);
 
             if (chuDeHien === 'dark') {
-                chuDe.checked = true;
+              chuDe.checked = true;
             }
         }
         function doiChuDe(e) {
@@ -322,8 +324,8 @@
           var x=0;
           var y=0;
           var z=0;
-          
-
+            
+          /* Dinh lai vi tri cua nut cong tac thay doi chu de */
           $(window).resize(function() {
             var w = $(window).width();
             if (w >= 768) {
@@ -403,14 +405,16 @@
               y = 0;
             }
           })
-          
+
+          /* Hover hien menu xo */
           $(".menu-lon__nut").mouseover(function() {
             $(this).children().stop(true, false, true).fadeIn(100).css({"top":"60px"});
+            $(".menu-lon__muc::before").show();
           })
           $(".menu-lon__nut").mouseout(function() {
             $(this).children().fadeOut(100).css({"top":"75px"});
           })
-
+          
         })
       </script>
 
