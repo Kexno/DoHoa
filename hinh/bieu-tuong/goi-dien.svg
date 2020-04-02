@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="11.853334mm"
+   height="11.853334mm"
+   viewBox="0 0 11.853335 11.853335"
+   version="1.1"
+   id="svg2146"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="goi-dien.svg">
+  <defs
+     id="defs2140">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2019"
+       x="-0.059999999"
+       width="1.12"
+       y="-0.059999999"
+       height="1.12">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.26458335"
+         id="feGaussianBlur2021" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="27.634246"
+     inkscape:cy="27.643196"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2143">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(8.4030569,-107.60533)">
+    <g
+       style="display:inline"
+       id="g3082"
+       transform="translate(-350.6692,-71.676336)">
+      <circle
+         r="5.291667"
+         cy="185.20833"
+         cx="348.19281"
+         id="circle3036"
+         style="opacity:0.2;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14994863;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter2019)" />
+      <g
+         id="g3080"
+         transform="translate(23.813606,-37.570827)">
+        <circle
+           r="5.291667"
+           cy="222.25"
+           cx="324.37918"
+           id="circle3038"
+           style="opacity:1;vector-effect:none;fill:#fc94b4;fill-opacity:1;stroke:none;stroke-width:0.14994863;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
+        <g
+           style="fill:#ffffff;fill-opacity:1"
+           transform="matrix(-0.01701542,0,0,0.01701542,327.26113,219.20929)"
+           id="g3078">
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3046">
+            <g
+               style="fill:#ffffff;fill-opacity:1"
+               id="g3044">
+              <g
+                 style="fill:#ffffff;fill-opacity:1"
+                 id="g3042">
+                <path
+                   style="fill:#ffffff;fill-opacity:1"
+                   inkscape:connector-curvature="0"
+                   d="M 340.273,275.083 286.518,221.322 C 275.811,210.658 258.08,210.982 247,222.066 l -27.082,27.076 c -1.711,-0.943 -3.482,-1.928 -5.344,-2.973 -17.102,-9.476 -40.509,-22.464 -65.14,-47.113 -24.704,-24.701 -37.704,-48.144 -47.209,-65.257 -1.003,-1.813 -1.964,-3.561 -2.913,-5.221 l 18.176,-18.149 8.936,-8.947 c 11.097,-11.1 11.403,-28.826 0.721,-39.521 L 73.39,8.194 C 62.708,-2.486 44.969,-2.162 33.872,8.938 l -15.15,15.237 0.414,0.411 C 14.056,31.068 9.811,38.544 6.652,46.606 3.74,54.28 1.927,61.603 1.098,68.941 -6,127.785 20.89,181.564 93.866,254.541 c 100.875,100.868 182.167,93.248 185.674,92.876 7.638,-0.913 14.958,-2.738 22.397,-5.627 7.992,-3.122 15.463,-7.361 21.941,-12.43 l 0.331,0.294 15.348,-15.029 c 11.074,-11.098 11.393,-28.83 0.716,-39.542 z"
+                   id="path3040" />
+              </g>
+            </g>
+          </g>
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3048" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3050" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3052" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3054" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3056" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3058" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3060" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3062" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3064" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3066" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3068" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3070" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3072" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3074" />
+          <g
+             style="fill:#ffffff;fill-opacity:1"
+             id="g3076" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

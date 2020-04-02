@@ -26,6 +26,7 @@
     --mau-nut-menu: #7098c6;
     --bieu-tuong-sang: url("../hinh/bieu-tuong/");
     --bieu-tuong-toi: url("../hinh/bieu-tuong/");
+    --skype: url("../hinh/bieu-tuong/skype-toi.svg");
 }
 @media (min-width: 768px) {
     :root {
@@ -55,6 +56,7 @@
     --mau-nut-menu: #c9d4f9;
     --bieu-tuong-sang: url("../hinh/bieu-tuong/");
     --bieu-tuong-toi: url("../hinh/bieu-tuong/");
+    --skype: url("../hinh/bieu-tuong/skype-sang.svg");
 }
 
 /* = CAC KHUNG (CONTAINER) */
@@ -395,6 +397,7 @@ h4 {
 #menu-lon .menu__kich-hoat {
     color: var(--mau-chu-menu-noi);
 }
+
 /* = nut cong tac chu de sang toi */
 
 #chu-de {
@@ -465,7 +468,44 @@ h4 {
     opacity: 1;
 }
 
-/* = noi dung */
+/* = cac nut lien he noi */
+
+.nut-lien-he {
+    background-size: cover;
+    display: block;
+    opacity: 0.75;
+    position: absolute;
+    right: 16.3px;
+    transition: all 0.4s;
+}
+.nut-lien-he:hover {
+    opacity: 1;
+}
+.nut-lien-he:nth-of-type(1) {
+    background-image: var(--skype);
+    bottom: 80.7px;
+    height: 44.8px;
+    width: 44.5px;
+}
+.nut-lien-he:nth-of-type(2) {
+    background-image: url(../hinh/bieu-tuong/goi-dien.svg);
+    bottom: 10.7px;
+    height: 44.8px;
+    width: 44.8px;
+}
+@media (min-width: 768px) {
+    .nut-lien-he {
+        right: 31.3px;
+    }
+    .nut-lien-he:nth-of-type(1) {
+        bottom: 85.7px;
+    }
+    .nut-lien-he:nth-of-type(2) {
+        bottom: 25.7px;
+    }
+}
+
+/* = NOI DUNG */
 
 #noi-dung {
     min-height: 100vh;
