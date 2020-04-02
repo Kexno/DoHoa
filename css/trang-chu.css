@@ -1,3 +1,4 @@
+
 #noi-dung {
     text-align: justify;
 }
@@ -36,6 +37,15 @@
 section {
     padding-top: var(--le-lon);
 }
+h2 {
+    margin-bottom: 30px;
+}
+.thong-tin {
+    height: 100%;
+}
+#noi-dung .nut-link {
+    margin-top: var(--le-lon);
+}
 @media (min-width: 992px) {
     #banner {
         padding-bottom: 57px;
@@ -44,15 +54,6 @@ section {
     #cuon-xuong {
         bottom: 39px;
     }
-}
-.thong-tin {
-    height: 100%;
-}
-h2 {
-    margin-bottom: 30px;
-}
-#noi-dung .nut-link {
-    margin-top: var(--le-lon);
 }
 @media (min-width: 1200px) {
     #noi-dung .nut-link {

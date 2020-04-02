@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="19.31131"
+   height="19.31131"
+   viewBox="0 0 5.1094506 5.1094508"
+   version="1.1"
+   id="svg10529"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="footer-fax.svg">
+  <defs
+     id="defs10523" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="21.127547"
+     inkscape:cx="14.331165"
+     inkscape:cy="12.104392"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="743"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-page="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true" />
+  <metadata
+     id="metadata10526">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-103.90199,-205.80802)">
+    <path
+       id="path4270"
+       d="m 108.34811,207.64506 h -0.21892 v -1.48679 c 0,-0.19312 -0.1571,-0.35025 -0.35026,-0.35025 h -2.64443 c -0.19317,0 -0.35026,0.15713 -0.35026,0.35025 v 1.48679 h -0.21892 c -0.19312,0 -0.35025,0.1571 -0.35025,0.35026 v 0.788 c 0,0.19316 0.15713,0.35026 0.35025,0.35026 h 0.21892 v 0.80748 c 0,0.19312 0.15709,0.35025 0.35026,0.35025 h 2.64443 c 0.19316,0 0.35026,-0.15713 0.35026,-0.35025 v -0.80748 h 0.21892 c 0.19312,0 0.35025,-0.1571 0.35025,-0.35026 v -0.788 c 0,-0.19316 -0.15713,-0.35026 -0.35025,-0.35026 z m -0.69177,0.74426 c 0,0.0346 -0.0139,0.0684 -0.0384,0.0929 -0.0245,0.0244 -0.0583,0.0384 -0.0929,0.0384 -0.0346,0 -0.0684,-0.0139 -0.0929,-0.0384 -0.0244,-0.0245 -0.0384,-0.0583 -0.0384,-0.0929 0,-0.0346 0.0139,-0.0684 0.0384,-0.0929 0.0245,-0.0244 0.0583,-0.0384 0.0929,-0.0384 0.0346,0 0.0684,0.014 0.0929,0.0384 0.0245,0.0244 0.0384,0.0583 0.0384,0.0929 z m -0.61295,-0.004 c 0,0.0726 -0.0588,0.13135 -0.13134,0.13135 h -1.08581 c -0.0726,0 -0.13134,-0.0588 -0.13134,-0.13135 0,-0.0726 0.0588,-0.13134 0.13134,-0.13134 h 1.08581 c 0.0726,0 0.13134,0.0588 0.13134,0.13134 z m 0.80026,0.0972 c -0.0244,-0.0245 -0.0383,-0.0583 -0.0383,-0.0929 0,-0.0346 0.0139,-0.0684 0.0383,-0.0929 0.0245,-0.0244 0.0583,-0.0384 0.0929,-0.0384 0.0346,0 0.0684,0.014 0.0929,0.0384 0.0244,0.0244 0.0384,0.0583 0.0384,0.0929 0,0.0346 -0.014,0.0684 -0.0384,0.0929 -0.0246,0.0244 -0.0583,0.0384 -0.0929,0.0384 -0.0347,0 -0.0684,-0.0139 -0.0929,-0.0384 z m -2.18377,-1.28808 h 1.58491 c 0.0726,0 0.13135,0.0588 0.13135,0.13134 0,0.0726 -0.0588,0.13135 -0.13135,0.13135 h -1.58491 c -0.0726,0 -0.13135,-0.0588 -0.13135,-0.13135 0,-0.0726 0.0588,-0.13134 0.13135,-0.13134 z m -0.13135,-0.49911 c 0,-0.0726 0.0588,-0.13136 0.13135,-0.13136 h 1.58491 c 0.0726,0 0.13135,0.0588 0.13135,0.13136 0,0.0725 -0.0588,0.13134 -0.13135,0.13134 h -1.58491 c -0.0726,0 -0.13135,-0.0588 -0.13135,-0.13134 z m 1.84761,2.71448 c 0,0.0726 -0.0588,0.13134 -0.13135,0.13134 h -1.58491 c -0.0726,0 -0.13135,-0.0588 -0.13135,-0.13134 0,-0.0726 0.0588,-0.13134 0.13135,-0.13134 h 1.58491 c 0.0726,0 0.13135,0.0588 0.13135,0.13134 z m 0,0"
+       inkscape:connector-curvature="0"
+       style="fill:#7096c6;fill-opacity:1;stroke-width:0.00875643" />
+  </g>
+</svg>
