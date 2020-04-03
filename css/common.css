@@ -347,7 +347,7 @@ h4 {
 }
 .menu-lon__muc {
     cursor: pointer;
-    font-size: 16pt;
+    font-size: 14pt;
     float: right;
     line-height: 26px;
     padding: 0 var(--le-nho);
@@ -368,7 +368,7 @@ h4 {
     box-shadow: var(--bong-gan);
     display: none;
     position: absolute;
-    padding: 10px 0;
+    padding: 15px 0;
     top: 75px;
     transition: all 0.4s;
 }
@@ -383,9 +383,9 @@ h4 {
 .menu-xo a {
     display: block;
     float: none;
-    font-size: 12pt;
+    font-size: 11pt;
     text-align: center;
-    padding: 7.5px;
+    padding: 5px;
     width: 100%;
 }
 .menu-xo__an {
