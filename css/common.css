@@ -24,7 +24,7 @@
     --le-nho: 15px;
     --le-hep: 5px;
     --dem-nut: 7.5px 15px; /* button padding */
-    --bong-gan: 0px 0px 20px 0px rgba(0,0,0,0.09);
+    --bong-gan: 0px 0px 10px 0px rgba(0,0,0,0.075);
     --bong-xa: ;
     --mau-nut-menu: #7098c6;
     --bieu-tuong-sang: url("../hinh/bieu-tuong/");
@@ -57,6 +57,7 @@
     --mau-chu-menu-noi: white;
     --nen-nut-chu-de: #7098c6;
     --mau-nut-menu: #c9d4f9;
+    --bong-gan: 0px 0px 10px 0px rgba(0,0,0,0.1);
     --bieu-tuong-sang: url("../hinh/bieu-tuong/");
     --bieu-tuong-toi: url("../hinh/bieu-tuong/");
     --skype: url("../hinh/bieu-tuong/skype-sang.svg");
