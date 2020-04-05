@@ -1,0 +1,31 @@
+/* Banner cac san pham noi bat */
+
+#carouselExampleIndicators {
+    margin-top: 60px;
+}
+.carousel-item {
+    height: 50vh
+}
+.carousel-indicators {
+    margin-bottom: 0;
+}
+.carousel-indicators li {
+    
+height: 15px;
+    margin: 15px 15px;
+    width: 15px;
+}
+.carousel-item {
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item:nth-child(1) {
+    background-image: url("hinh/san-pham/luoi-in.jpg");
+}
+.carousel-item:nth-child(2) {
+    background-image: url("hinh/san-pham/pantone.jpg");
+}
+.carousel-item:nth-child(3) {
+    background-image: url("hinh/san-pham/phim-xac-dinh-thoi-gian-chup-ban.jpg");
+}

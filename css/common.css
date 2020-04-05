@@ -15,6 +15,7 @@
     --mau-chu-menu: #7098c6;
     --mau-chu-menu-noi: #586284;
     --nen-nut-chu-de: #a2e0e4;
+    --nen-pop-up: rgba(88, 98, 132, 0.9);
     /* co chu (font-size) */
     --co-chu-tieu-de: 20pt;
     --co-chu-noi-dung: 12pt;
@@ -57,6 +58,7 @@
     --mau-chu-menu-noi: white;
     --nen-nut-chu-de: #7098c6;
     --mau-nut-menu: #c9d4f9;
+    --nen-popup: rgba(80, 89, 120, 0.9);
     --bong-gan: 0px 0px 10px 0px rgba(0,0,0,0.1);
     --bieu-tuong-sang: url("../hinh/bieu-tuong/");
     --bieu-tuong-toi: url("../hinh/bieu-tuong/");
@@ -66,10 +68,12 @@
 /* = CAC KHUNG (CONTAINER) */
 
 .khung-co-dinh { /* danh cho thanh phan chua nhung phan tu con co dinh vi tri tren man hinh */
-    height: 100%;
+    height: 100vh;
+    left: 0;
     overflow: hidden;
     position: fixed;
-    width: 100%;
+    top: 0;
+    width: 100vw;
     z-index: 2000;
 }
 .khung-ngang { /* danh cho thanh phan chieu ngang luon toan man hinh */
@@ -162,6 +166,8 @@ h4 {
 }
 @media (min-width: 992px) {
     body {font-size: 14pt;}
+}
+@media (min-width: 1200px) {
     h1 {font-size: 30pt;}
     h2 {font-size: 24pt;}
     h3 {font-size: 18pt;}
@@ -220,6 +226,17 @@ h4 {
 .--vien-trang:hover {
     background-color: white;
     color: var(--mau-chinh);
+}
+.nut-san-pham{
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.xa-hoi {
+    background-color: var(--mau-chinh);
+    height: 30px;
+    margin-left: 15px;
+    width: 30px;
 }
 
 /* = Thanh dieu huong */
@@ -350,6 +367,7 @@ h4 {
     cursor: pointer;
     font-size: 14pt;
     float: right;
+    margin-left: 30px;
     line-height: 26px;
     padding: 0 var(--le-nho);
     position: relative;
@@ -518,6 +536,64 @@ h4 {
 #noi-dung {
     min-height: 100vh;
 }
+/* style chung cac muc san pham trng vat tu va san pham */
+.san-pham__ten {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 15px; 
+}
+@media (min-width: 768px) {
+    .san-pham__ten {
+        padding-top: 25px;
+    }
+}
+
+/* Pop-up */
+
+.popup {
+    background: var(--nen-popup);
+    margin: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 3000;
+}
+.popup__ngoai {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.anh-lon__le {
+    position: relative;
+}
+#anh-lon img {
+    height: 80vw;
+    max-height: 80vh;
+}
+.popup__x {
+    top: -30px;
+    right: 30px;
+    position: absolute;
+}
+@media (min-width: 576px) {
+    .popup__x {
+        top: -30px;
+        right: 0px;
+    }
+}   
+.popup__x div {
+    background-color: var(--mau-noi);
+    border-radius: 1px;
+    height: 2px;
+    position: absolute;
+    width: 20px;
+}
+.popup__x div:nth-child(1) {
+    transform: rotate(45deg);
+}
+.popup__x div:nth-child(2) {
+    transform: rotate(-45deg);
+}
 
 /* FOOTER */
 
@@ -604,6 +680,6 @@ a:hover {
 li {
     list-style: none;
 }
-img, button{
+img, button {
     border-radius: 7.5px;
 }

@@ -1,0 +1,16 @@
+#noi-dung {
+    margin-top: 60px;
+}
+.chi-tiet-sp {
+    height: 100%;
+}
+.chi-tiet-sp p{
+    margin-bottom: 0;
+    padding-top: 30px;
+    text-align: justify;
+}
+@media (min-width: 768px) {
+    .chi-tiet-sp p{
+        padding-top: 0;
+    }
+}

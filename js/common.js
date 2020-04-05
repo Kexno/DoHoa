@@ -116,3 +116,12 @@ $(document).ready(function() {
   })
   
 })
+
+/* Pop up */
+$(".popup").hide();
+$(".san-pham__anh").click(function() {
+  $("#anh-lon").fadeIn(400);
+}) 
+$(".popup__x").click(function() {
+  $(".popup").fadeOut(400);
+})
