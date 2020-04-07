@@ -9,6 +9,7 @@
     padding-top: 30px;
     text-align: justify;
 }
+.san-pham__ten {margin-bottom: 20px;margin-top: -10px}
 @media (min-width: 768px) {
     .chi-tiet-sp p{
         padding-top: 0;
