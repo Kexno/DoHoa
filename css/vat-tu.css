@@ -2,18 +2,64 @@
 
 #carouselExampleIndicators {
     margin-top: 60px;
+    margin-bottom: 25px;
 }
-.carousel-item {
-    height: 50vh
-}
+
 .carousel-indicators {
     margin-bottom: 0;
 }
 .carousel-indicators li {
-    
-height: 15px;
-    margin: 15px 15px;
+    background: white;
+    border: solid white 2px;
+    border-radius: 50%;
+    box-shadow: var(--bong-gan);
+    box-sizing: border-box;
+    height: 15px;
+    opacity: 1;
+    margin: 15px 7.5px;
     width: 15px;
+}
+.carousel-indicators .active {
+    background: var(--mau-chinh);
+}
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+    width: 45px;
+}
+@media (min-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 75px;
+    } 
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 45px;
+  height: 44px;
+}
+.carousel-control-prev-icon {
+    background: url("/hinh/bieu-tuong/mui-ten.svg");
+}
+.carousel-control-next-icon {
+    background: url("/hinh/bieu-tuong/mui-ten.svg");
+    transform: rotate(180deg);
+}
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: var(--bo-goc);
+    bottom: 45px;
+    box-shadow: var(--bong-gan);
+    color: var(--mau-chu-chinh);
+    left: auto;
+    padding: var(--dem-nut);
+    right: 45px;
+    width: auto;
+}
+@media (min-width: 768px) {
+    .carousel-caption {
+        right: 75px;
+    }
 }
 .carousel-item {
     background-repeat: none;
@@ -21,11 +67,36 @@ height: 15px;
     background-position: center;
 }
 .carousel-item:nth-child(1) {
-    background-image: url("hinh/san-pham/luoi-in.jpg");
+    background-image: url("/hinh/san-pham/luoi-in.jpg");
 }
 .carousel-item:nth-child(2) {
-    background-image: url("hinh/san-pham/pantone.jpg");
+    background-image: url("/hinh/san-pham/pantone.jpg");
 }
 .carousel-item:nth-child(3) {
-    background-image: url("hinh/san-pham/phim-xac-dinh-thoi-gian-chup-ban.jpg");
+    background-image: url("/hinh/san-pham/phim-xac-dinh-thoi-gian-chup-ban.jpg");
 }
+
+/* Danh sach vat tu */
+
+.phan-muc {
+    margin-top: -25px;
+    padding-bottom: var(--le-lon);
+    padding-top: var(--le-lon);
+}
+.phan-muc__duong-ke {
+    padding-left: 0px;
+    padding-top: 2px;
+}
+@media (min-width: 768px) {
+    .phan-muc__duong-ke {
+        padding-left: 15px
+    }
+}
+.phan-muc__duong-ke div {
+    background-color: var(--mau-chu-chinh);
+    border-radius: 0.5px;
+    height: 1px;
+    width: 100%;
+}
+
+
