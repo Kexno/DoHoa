@@ -120,6 +120,9 @@ $("#nut-menu").click(function () {
 
 /* Menu dien thoai */
 $(".menu-phu").hide();
+
+/* hien san menu vat tu phu */
+
 $(".menu-nho__nut:eq(0)").click(function () {
     if (x == 0) {
         $(this).css({
@@ -161,6 +164,19 @@ $(".menu-nho__nut:eq(0)").click(function () {
         x = 0;
     }
 })
+/* hien san menu vat tu phu 
+x = 1;
+$(".menu-nho__nut:eq(1)").css({
+    "color": "var(--mau-chu-menu)",
+    "margin-left": "0px"
+})
+$(".menu-nho__nut:eq(1)").siblings().css({
+    "color": "var(--mau-chu-chim)"
+});
+$(".menu-nho__nut:eq(1)").children().css({
+    right: "0px"
+});
+$(".menu-phu:eq(1)").toggle(400);*/
 $(".menu-nho__nut:eq(1)").click(function () {
     if (y == 0) {
         $(this).css({
@@ -203,6 +219,44 @@ $(".menu-nho__nut:eq(1)").click(function () {
     }
 })
 
+$(".menu-phu a").click(function(){
+    gsap.to("#nut-menu div", {
+        duration: 0.2,
+        delay: 0.2,
+        backgroundColor: "var(--mau-nut-menu)"
+    });
+    gsap.to("#nut-menu div:nth-child(3)", {
+        duration: 0.2,
+        rotate: 0
+    });
+    gsap.to("#nut-menu div:nth-child(2)", {
+        duration: 0.2,
+        rotate: 0
+    });
+    gsap.to("#nut-menu div:nth-child(1)", {
+        duration: 0.2,
+        delay: 0.2,
+        top: "0px",
+        opacity: 1
+    });
+    gsap.to("#nut-menu div:nth-child(3)", {
+        duration: 0.2,
+        delay: 0.2,
+        bottom: "0px"
+    });
+    gsap.to("#menu-nho", {
+        duration: 0.6,
+        ease: "power4.in",
+        right: "-105vw"
+    });
+    gsap.to("#chu-de", {
+        duration: 0.4,
+        ease: "expo.out",
+        top: -30
+    });
+    z = 0;
+})
+
 /* Menu xo */
 $(".menu-lon__nut").mouseover(function () {
     $(this).children().stop(true, false, true).fadeIn(100).css({
@@ -238,6 +292,7 @@ var h = $(window).height();
 //}
 
 $(window).resize(function () {
+    var h = $(window).height();
     var hh = (h - 60) / 2;
     $(".carousel-item").css({
         "height": hh
@@ -248,4 +303,4 @@ $(window).resize(function () {
 
 HoverW = $(".san-pham img").width();
 HoverH = HoverW;
-$(".sanpham")
+
