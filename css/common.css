@@ -17,6 +17,7 @@
     --mau-chu-menu-noi: #586284;
     --nen-nut-chu-de: #a2e0e4;
     --nen-pop-up: rgba(88, 98, 132, 0.9);
+    --nen-trong-suot: rgba(255, 255, 255, 0.9);
     /* co chu (font-size) */
     --co-chu-tieu-de: 20pt;
     --co-chu-noi-dung: 12pt;
@@ -63,6 +64,7 @@
     --nen-nut-chu-de: #7098c6;
     --mau-nut-menu: #c9d4f9;
     --nen-popup: rgba(80, 89, 120, 0.9);
+    --nen-trong-suot: rgb(80, 89, 120, 0.9);
     --bong-gan: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     --bong-xa: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
     --bieu-tuong-sang: url("../hinh/bieu-tuong/");
@@ -80,7 +82,7 @@
     position: fixed;
     top: 0;
     width: 100vw;
-    z-index: 2000;
+    
 }
 
 .khung-ngang {
@@ -169,6 +171,7 @@ body {
     font-family: Nunito, sans-serif;
     font-size: 12pt;
     font-weight: 400;
+    transition: all 0.4s;
 }
 
 h1,
@@ -177,6 +180,7 @@ h3,
 h4 {
     font-family: BrandonTextBold;
     text-align: center;
+    padding: 0;
 }
 
 h1 {
@@ -602,6 +606,7 @@ h4 {
     position: fixed;
     right: 16.3px;
     transition: all 0.4s;
+    z-index: 2000;
 }
 @media (min-width: 1290px) {
     .nut-lien-he {
@@ -641,9 +646,13 @@ h4 {
 }
 
 /* = NOI DUNG */
-
+.cuon-trang {
+    top: -60px;
+    position: absolute;
+}
 #noi-dung {
     min-height: 100vh;
+    position: relative;
 }
 
 /* style chung cac muc san pham trng vat tu va san pham */

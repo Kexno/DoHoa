@@ -1,3 +1,4 @@
+
 /* Banner cac san pham noi bat */
 
 #carouselExampleIndicators {
@@ -17,6 +18,7 @@
     height: 15px;
     opacity: 1;
     margin: 15px 7.5px;
+    transition: all 0.4s;
     width: 15px;
 }
 .carousel-indicators .active {
@@ -46,14 +48,16 @@
     transform: rotate(180deg);
 }
 .carousel-caption {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: var(--nen-trong-suot);
     border-radius: var(--bo-goc);
     bottom: 45px;
     box-shadow: var(--bong-gan);
     color: var(--mau-chu-chinh);
+    display: block;
     left: auto;
     padding: var(--dem-nut);
     right: 45px;
+    transition: all 0.4s;
     width: auto;
 }
 @media (min-width: 768px) {
@@ -65,27 +69,30 @@
     background-repeat: none;
     background-size: cover;
     background-position: center;
+    min-height: 200px;
 }
 .carousel-item:nth-child(1) {
-    background-image: url("/hinh/san-pham/luoi-in.jpg");
+    background-image: url("../hinh/san-pham/luoi-in.jpg");
 }
 .carousel-item:nth-child(2) {
-    background-image: url("/hinh/san-pham/pantone.jpg");
+    background-image: url("../hinh/san-pham/pantone.jpg");
 }
 .carousel-item:nth-child(3) {
-    background-image: url("/hinh/san-pham/phim-xac-dinh-thoi-gian-chup-ban.jpg");
+    background-image: url("../hinh/san-pham/phim-xac-dinh-thoi-gian-chup-ban.jpg");
 }
 
 /* Danh sach vat tu */
-
+.tong-phan-muc {
+    
+}
 .phan-muc {
     margin-top: -25px;
     padding-bottom: var(--le-lon);
     padding-top: var(--le-lon);
+    position: relative;
 }
 .phan-muc__duong-ke {
     padding-left: 0px;
-    padding-top: 2px;
 }
 @media (min-width: 768px) {
     .phan-muc__duong-ke {
