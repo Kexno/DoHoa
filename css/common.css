@@ -16,7 +16,7 @@
     --mau-chu-menu: #7098c6;
     --mau-chu-menu-noi: #586284;
     --nen-nut-chu-de: #a2e0e4;
-    --nen-pop-up: rgba(88, 98, 132, 0.9);
+    --nen-popup: rgba(88, 98, 132, 0.9);
     --nen-trong-suot: rgba(255, 255, 255, 0.9);
     /* co chu (font-size) */
     --co-chu-tieu-de: 20pt;
@@ -179,6 +179,7 @@ h2,
 h3,
 h4 {
     font-family: BrandonTextBold;
+    margin: 0;
     text-align: center;
     padding: 0;
 }
@@ -709,8 +710,10 @@ h4 {
 
 .popup__ngoai {
     left: 0;
+    height: 100%;
     position: absolute;
     top: 0;
+    width: 100%;
 }
 
 .anh-lon__le {

@@ -279,6 +279,9 @@ $(".san-pham__anh").click(function () {
 $(".popup__x").click(function () {
     $(".popup").fadeOut(400);
 })
+$(".popup__ngoai").click(function () {
+    $(".popup").fadeOut(400);
+})
 
 /* Banner cac 50% */
 
