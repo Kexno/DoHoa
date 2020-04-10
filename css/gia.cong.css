@@ -1,0 +1,22 @@
+#noi-dung {
+    margin-top: 60px;
+}
+.dich-vu__ten {
+    margin: 10px 0px 5px 0px;
+    text-align: left;
+}
+.dich-vu__mo-ta {
+    font-size: 12pt;
+    text-align: justify;
+}
+.dich-vu__mo-ta span {
+    color: var(--mau-chinh);
+}
+@media (min-width: 768px) {
+    .dich-vu__ten {
+        margin: 25px 0px 15px 0px;
+    }
+}
+@media (min-width: 1200px) {
+    
+}

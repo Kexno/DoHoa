@@ -1,0 +1,25 @@
+#noi-dung {
+    margin-top: 60px;
+    text-align: justify;
+    margin-bottom: -30px;
+}
+
+#noi-dung p,
+#noi-dung img {
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+
+    #noi-dung p,
+    #noi-dung img {
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #noi-dung p,
+    #noi-dung img {
+        margin-bottom: 60px;
+    }
+}
