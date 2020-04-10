@@ -200,23 +200,24 @@ header img {margin-left: 30px;}
 
 .container-fluid .headline-info h1 {font-size: 1.7rem; margin: 20px 0;}
 
-.container-fluid .chamdo .info {padding-right: 0px;}
-.container-fluid .chamdo .info ul {margin: 0 0 0 15px; padding-right: 0;}
-.container-fluid .chamdo .form {padding-left: 0;}
+.container-fluid .chamdo .info {padding-right: 0px; padding-left: 40px;}
+.container-fluid .chamdo .info h2 {padding-left: 30px;}
+.container-fluid .chamdo .info ul {/*margin: 0 0 0 15px;*/ padding-right: 0;}
+.container-fluid .chamdo .form {padding-left: 0; padding-right: 30px;}
 }
 
 @media screen and (min-width: 992px){
 .full-banner {height: 1000px;}
 .full-banner:before {
-	height: 1000px;
+	height: 1500px;
 	top:0;
 	background-size: 70%;
-	background-position: right -300px;
+	background-position: right -100px;
 }
 .full-banner .banner-content {
 	bottom: auto;
 	top: 200px;
-	padding-left: 150px;
+	padding-left: 120px;
 	display: flex;
 	flex-flow: row wrap;
 }
@@ -230,7 +231,7 @@ header img {margin-left: 30px;}
 .full-banner .banner-content .desk {font-family: 'Nunito-Regular'; font-size: 1.5rem;}
 .full-banner .banner-content .mobi {margin-bottom: 0; width: 100%;}
 
-.full-banner .minhhoa {padding: 10px 0; justify-content: center; bottom: 100px; }
+.full-banner .minhhoa {padding: 10px 100px; bottom: 100px; justify-content: flex-start;  }
 
 .full-banner .minhhoa .image3 {
 	width: 380px;
@@ -262,7 +263,7 @@ header img {margin-left: 30px;}
 .container-fluid .chamdo {margin-bottom: 35px;}
 .container-fluid .chamdo .info h2, .chamdo .form h2 {font-size: 1.7rem; padding: 0 15px;}
 
-.container-fluid .chamdo .info ul {padding-left: 130px; margin-top: 50px; padding-right: 30px; margin-left: 25px;}
+.container-fluid .chamdo .info ul {padding-left: 100px; margin-top: 50px; padding-right: 5px; margin-left: 25px;}
 .container-fluid .chamdo .info ul li {font-size: 1.3rem;}
 .container-fluid .chamdo .info ul li:first-child {margin-bottom: 35px;}
 .container-fluid .chamdo .info ul li span {font-size: 1.5rem;}
@@ -279,9 +280,11 @@ header img {margin-left: 30px;}
 	width: 350px;
 	height: 50px;
 	padding-left: 15px;
+	margin-bottom: 15px;
 }
 .container-fluid .chamdo .form form input:last-child {
 	height: 60px;
 	font-size: 1.5rem;
+	margin-top: 5px;
 }
 }
