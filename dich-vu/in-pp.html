@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS, co dinh 2 file dau tien, file thu 3 tuy cho moi web -->
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/vat-tu.css">
+    <link rel="stylesheet" href="../css/dich-vu.css">
+
+    <title>Đô Hoa | In PP</title>
+</head>
+
+<body>
+
+    <!-- CAC THANH PHAN CO DINH CHUNG -->
+
+    <!-- Thanh dieu huong -->
+    <div id="dieu-huong" class="khung-ngang --nen-chinh --do-bong">
+        <div id="logo"></div>
+
+        <!-- nut dong mo menu nho -->
+        <div id="nut-menu" class="d-block d-md-none">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <!-- nut doi che do sang toi -->
+        <label id="chu-de" for="chu-de__an">
+            <input type="checkbox" id="chu-de__an">
+            <div id="__cong-tac"></div>
+            <div id="__bieu-tuong-sang"></div>
+            <div id="__bieu-tuong-toi"></div>
+        </label>
+
+        <!-- menu lon -->
+        <div id="menu-lon" class="d-none d-md-block">
+            <a href="../lien-he.html" class="menu-lon__muc">Liên hệ</a>
+            <div class="menu-lon__muc menu-lon__nut">
+                Vật tư
+                <div class="menu-xo" id="xo-1">
+                    <div class="menu-xo__an"></div>
+                    <a href="../vat-tu.html">Xem tất cả</a>
+                    <a href="../vat-tu.html#may-nganh-in">Máy ngành in</a>
+                    <a href="../vat-tu.html#khung-in-lua">Khung in lụa</a>
+                    <a href="../vat-tu.html#keo-chup-ban">Keo chụp bản</a>
+                    <a href="../vat-tu.html#dao-gat-muc">Dao gạt mực</a>
+                    <a href="../vat-tu.html#ban-in">Bàn in</a>
+                    <a href="../vat-tu.html#muc-in">Mực in</a>
+                    <a href="../vat-tu.html#phim-in">Phim in lụa</a>
+                    <a href="../vat-tu.html#luoi-in">Lưới in lụa</a>
+                    <a href="../vat-tu.html#vat-tu-khac">Vật tư khác</a>
+                </div>
+            </div>
+            <div class="menu__kich-hoat menu-lon__muc menu-lon__nut">
+                Gia công
+                <div class="menu-xo" id="xo-2">
+                    <div class="menu-xo__an"></div>
+                    <a href="../gia-cong.html">Xem tất cả</a>
+                    <a href="../gia-cong/cang-khung-lua.html">Căng khung lụa</a>
+                    <a href="../gia-cong/in-backlit-film.html">In backlite film</a>
+                    <a href="../gia-cong/in-vai-silk.html">In vải silk</a>
+                    <a href="../gia-cong/in-decal-luoi.html">In decal lưới</a>
+                    <a href="../gia-cong/in-pp.html">In PP</a>
+                    <a href="../gia-cong/in-heflex.html">In heflex</a>
+                    <a href="../gia-cong/in-lua.html">In lụa</a>
+                </div>
+            </div>
+            <a href="../index.html" class="menu-lon__muc">Trang chủ</a>
+        </div><!-- /#menu-lon -->
+
+    </div><!-- /#dieu-huong -->
+
+    <!-- menu nho -->
+    <div id="menu-nho" class="--nen-chinh --do-bong row align-items-center justify-content-center">
+        <div class="col-auto">
+            <div class="row ">
+                <a class="menu-nho__muc col-12" href="../index.html">Trang chủ</a>
+                <div class="menu__kich-hoat menu-nho__muc menu-nho__nut col-12">
+                    Gia công
+                    <a class="menu-nho__tat-ca" href="../gia-cong.html">Xem tất cả</a>
+                </div>
+                <div class="col-12 menu-phu">
+                    <div class="row justify-content-between">
+                        <ul class="col-auto menu-phu__trai">
+                            <li><a href="../gia-cong/cang-khung-lua.html">Căng khung lụa</a></li>
+                            <li><a href="../gia-cong/in-backlit-film.html">In backlit film </a></li>
+                            <li><a href="../gia-cong/in-vai-silk.html">In vải silk</a></li>
+                            <li><a href="../gia-cong/in-decal-luoi.html">In decal lưới</a></li>
+                        </ul>
+                        <ul class="col-auto menu-phu__phai">
+                            <li><a href="../gia-cong/in-pp.html">In PP</a></li>
+                            <li><a href="../gia-cong/in-heflex.html">In heflex</a></li>
+                            <li><a href="../gia-cong/in-lua.html">In lụa</a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.menu-phu -->
+
+                <div class="menu-nho__muc menu-nho__nut col-12">
+                    Vật tư
+                    <a class="menu-nho__tat-ca" href="../vat-tu.html">Xem tất cả</a>
+                </div>
+                <div class="col-12 menu-phu">
+                    <div class="row justify-content-between">
+                        <ul class="col-auto menu-phu__trai">
+                            <li><a href="../vat-tu.html#may-nganh-in">Máy ngành in</a></li>
+                            <li><a href="../vat-tu.html#khung-in-lua">Khung in lụa</a></li>
+                            <li><a href="../vat-tu.html#keo-chup-ban">Keo chụp bản</a></li>
+                            <li><a href="../vat-tu.html#dao-gat-muc">Dao gạt mực</a></li>
+                            <li><a href="../vat-tu.html#ban-in">Bàn in</a></li>
+                        </ul>
+                        <ul class="col-auto menu-phu__phai">
+                            <li><a href="../vat-tu.html#muc-in">Mực in</a></li>
+                            <li><a href="../vat-tu.html#phim-in">Phim in lụa</a></li>
+                            <li><a href="../vat-tu.html#luoi-in">Lưới in lụa</a></li>
+                            <li><a href="../vat-tu.html#vat-tu-khac">Vật tư khác</a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.menu-phu -->
+                <a class="menu-nho__muc col-12" href="../lien-he.html">Liên hệ</a>
+            </div>
+        </div>
+    </div><!-- /#menu-nho -->
+
+    <!-- Cac nut lien he noi -->
+    <a class="nut-lien-he" href="tel:0983310103"></a>
+    <a class="nut-lien-he" href="skype:giathuan83?chat&text="></a>
+
+
+    <!-- NOI DUNG TRANG -->
+
+    <div class="khung-gioi-han" id="noi-dung">
+        <section class="row justify-content-center">
+            <h1 class="col-12 --dem-lon">In PP</h1>
+            <p class="col-12 col-lg-10 col-xl-8">
+                PP là gì? Là tên một loại giấy trong ngành in ấn kỹ thuật số. PP hơn giấy ảnh, mặt sau có keo hoặc không keo, sau khi in được phủ lên một lớp bảo vệ (bóng hoặc mờ).<br>
+                PP có 2 khổ in là 1m và 1.5m, chiều dài tấm in có thể lên đến vài chục mét. Người ta thường sử dụng PP để in Poster quảng cáo, tranh ảnh trưng bày triển lãm hay treo trang trí trong nhà ( giá thành rẻ và tiện sử dụng: dán, đóng khung, treo trên standee hoặc treo như lịch block…). Đối với các gia đình, có thể trang trí trong nhà bằng những hình ảnh yêu thích với nhiều kích cỡ tùy theo không gian riêng hay in tặng bạn bè, người thân những tờ lịch có hình ảnh gia đình, con cái mỗi dịp xuân về.<br>
+                PP được sử dụng trong nhà lẫn ngoài trời (PP ngoài trời). Tuy nhiên PP có một nhược điểm mà khách hàng rất dễ mắc phải, đó là sau khi dán lên tường hay cửa một thời gian chúng ta sẽ không thể lột bỏ lớp PP đó đi hết vì lớp keo dán quá chắc đã giữ lại lớp giấy kia.
+
+            </p>
+            <div class="col-12 col-sm-8 col-md-6 col">
+                <img src="../hinh/dich-vu/in-pp.jpg" class="w-100">
+            </div>
+            <div class="col-12">
+                <div class="nut-san-pham row justify-content-between align-items-center">
+                    <div class="col d-none d-md-block"></div>
+                    <div id="dat-hang" class="col-auto nut-link --nen-nut-noi">Liên hệ mua</div>
+                    <div class="col">
+                        <div class="row justify-content-end">
+                            <a id="fb-like" class="xa-hoi col-auto nut-link"></a>
+                            <a href="" target="black" class="xa-hoi col-auto nut-link"></a>
+                            <a href="" target="black" class="xa-hoi col-auto nut-link"></a>
+                            <a href="" target="black" class="xa-hoi col-auto nut-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="khung-gioi-han">
+            <div class="row justify-content-between">
+                <h4 class="col-12 d-block d-md-none">CÔNG TY TNHH MTV ĐÔ HOA</h4>
+                <div class="col-12 col-md-6">
+                    <div class="muc-thong-tin row align-items-start">
+                        <img class="col-auto" src="../hinh/bieu-tuong/footer-dia-chi.svg">
+                        <div class="col">
+                            <b>Văn phòng đại diện: </b>
+                            78/15, Khu phố Thắng Lợi 2, Phường Dĩ An, Dĩ An, Bình Dương
+                        </div>
+                    </div>
+                    <div class="muc-thong-tin row align-items-start">
+                        <img class="col-auto" src="../hinh/bieu-tuong/footer-dia-chi.svg">
+                        <div class="col">
+                            <b>Phòng thiết kế 1: </b>
+                            22E/4C Đường Nguyễn Du, Khu Phố Bình Đáng, Phường Bình Đáng, Thuận An, Bình Dương
+                        </div>
+                    </div>
+                    <div class="muc-thong-tin row align-items-start">
+                        <img class="col-auto" src="../hinh/bieu-tuong/footer-dia-chi.svg">
+                        <div class="col">
+                            <b>Phòng thiết kế 2: </b>
+                            60 Phạm Văn Thuận, Tân mai, Tp. Biên Hoà, Đồng Nai
+                        </div>
+                    </div>
+                    <div class="muc-thong-tin row align-items-start">
+                        <img class="col-auto" src="../hinh/bieu-tuong/footer-dia-chi.svg">
+                        <div class="col">
+                            <b>Phòng thiết kế 3: </b>
+                            Thôn Đồng Thanh, Tân Bình, Tp. Thái Bình
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="footer-phai row">
+                        <h4 class="--dem-vua col-12 d-none d-md-block align-self-start">CÔNG TY TNHH MTV ĐÔ HOA</h4>
+                        <div class="col-12 align-self-end d-block d-xl-none">
+                            <div class="row justify-content-between">
+                                <div class="col-auto">
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-phone.svg">
+                                        <div class="col-auto">0650 376 3123</div>
+                                    </div>
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-email.svg">
+                                        <div class="col-auto">thuanfim@yahoo.com</div>
+                                    </div>
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-fax.svg">
+                                        <div class="col-auto">0650 376 3122</div>
+                                    </div>
+                                </div>
+                                <div class="col-auto footer-phai__phai">
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-phone.svg">
+                                        <div class="col-auto">0983 310 103</div>
+                                    </div>
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-skype.svg">
+                                        <div class="col-auto">giathuan83</div>
+                                    </div>
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-rss.svg">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-fb.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 align-self-end d-none d-xl-block">
+                            <div class="row justify-content-between">
+                                <div class="col-auto">
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-phone.svg">
+                                        <div class="col-auto">0650 376 3123</div>
+                                    </div>
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-email.svg">
+                                        <div class="col-auto">thuanfim@yahoo.com</div>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-fax.svg">
+                                        <div class="col-auto">0650 376 3122</div>
+                                    </div>
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-phone.svg">
+                                        <div class="col-auto">0983 310 103</div>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-skype.svg">
+                                        <div class="col-auto">giathuan83</div>
+                                    </div>
+                                    <div class="row muc-thong-tin">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-rss.svg">
+                                        <img class="col-auto" src="../hinh/bieu-tuong/footer-fb.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer__phan-cach "></div>
+                </div>
+                <div class="footer__ban-quyen col-12 col-md-auto">© Copyright 2020, All Rights Reserved</div>
+                <div class="footer__ban-quyen col-12 col-md-auto">Powered by Công ty TNHH Đô Hoa</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery, Popper JS,Bootstrap JS, GSAP, Do Hoa js -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="../js/common.js"></script>
+
+</body></html>
