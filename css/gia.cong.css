@@ -13,11 +13,12 @@
     color: var(--mau-chinh);
 }
 a {text-decoration: none; color: var(--mau-chu-chinh); }
+
 @media (min-width: 768px) {
     .dich-vu__ten {
         margin: 25px 0px 15px 0px;
     }
 }
 @media (min-width: 1200px) {
-    
+    a:hover {color: var(--mau-chu-menu);}
 }
