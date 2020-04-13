@@ -826,7 +826,7 @@ h4 {
 input[type=text],
 input[type=tel],
 input[type=number],
-input[type=email,]
+input[type=email],
 textarea {
     background-color: var(--mau-nen-phu);
     border: none;
