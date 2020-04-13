@@ -285,7 +285,9 @@ h4 {
     font-weight: 600;
     padding: var(--dem-nut);
 }
-
+.nut-link:hover {
+    color: white;
+}
 .--vien-trang {
     border: solid white 2px;
     transition: all 0.4s;
@@ -824,6 +826,7 @@ h4 {
 input[type=text],
 input[type=tel],
 input[type=number],
+input[type=email,]
 textarea {
     background-color: var(--mau-nen-phu);
     border: none;
@@ -841,6 +844,7 @@ input[type=number] {
 input[type=text]::placeholder,
 input[type=tel]::placeholder,
 input[type=number]::placeholder,
+input[type=email::placeholder,
 textarea::placeholder {
     color: var(--mau-chinh);
 }
@@ -848,6 +852,7 @@ textarea::placeholder {
 input[type=text]:focus,
 input[type=tel]:focus,
 input[type=number]:focus,
+input[type=email:focus,
 textarea:focus {
     border: none;
     color: var(--mau-chu-chinh);
