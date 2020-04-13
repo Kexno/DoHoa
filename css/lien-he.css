@@ -1,12 +1,15 @@
 #noi-dung {
     padding-top: 60px;
 }
+
 section {
     height: 100%;
 }
+
 #noi-dung h2 {
     padding: var(--le-lon) 15px;
 }
+
 .ban-do input {
     display: none;
 }
@@ -20,69 +23,58 @@ section {
     display: inline-block;
     height: 10px;
     margin: 10px 10px 0px 0px;
-    width: 10px;  
+    width: 10px;
 }
+
 .ban-do input:checked + label span {
     background-color: var(--mau-chu-chinh);
 }
+
 .ban-do__chu-thich {
     font-weight: 600;
 }
+
 label {
     font-size: 12pt;
     margin-bottom: 0;
 }
+
 iframe {
     border: none;
     border-radius: var(--bo-goc);
     margin-top: 10px;
     width: 100%;
 }
+
 iframe:nth-child(2),
 iframe:nth-child(3),
 iframe:nth-child(4) {
     display: none;
 }
-.lien-he input, textarea {
-    background-color: var(--mau-nen-phu);
-    border: none;
-    border-radius: var(--bo-goc);
-    color: var(--mau-chu-chinh);
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px 15px;
-}
-.lien-he input::placeholder, textarea::placeholder {
-    color: var(--mau-chinh);
-}
-.lien-he input:focus, textarea:focus {
-    border: none;
-    color: var(--mau-chu-chinh);
-}
-.lien-he input[type=submit] {
-    background-color: var(--mau-chinh);
-    color: white;
-    margin: 0 33.33%;
-    width: 33.33%;
-}
+
+
 @media (min-width: 768px) {
     .ban-do {
         height: 100%;
         margin: 0;
         padding-top: 0;
     }
+
     .ban-do__chu-thich {
         padding: 0;
     }
+
     .ban-do__ds {
         padding: 0;
     }
+
     .gg-maps {
         padding: 0;
     }
 }
+
 @media (min-width: 992px) {
     #noi-dung h2 {
         padding: 60px 15px;
-}
+    }
 }
