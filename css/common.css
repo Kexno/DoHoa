@@ -285,7 +285,9 @@ h4 {
     font-weight: 600;
     padding: var(--dem-nut);
 }
-
+.nut-link:hover {
+    color: white;
+}
 .--vien-trang {
     border: solid white 2px;
     transition: all 0.4s;
