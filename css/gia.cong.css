@@ -18,7 +18,7 @@
 }
 a {
     color: var(--mau-chu-chinh);
-0}
+}
 a:hover {
     color: var(--mau-chu-chinh);
 }
@@ -28,5 +28,5 @@ a:hover {
     }
 }
 @media (min-width: 1200px) {
-    
+
 }
