@@ -699,9 +699,10 @@ h4 {
     margin-right: 0;
 }
 
-#dat-hang {
+.dat-hang {
     cursor: pointer;
 }
+
 
 .xa-hoi {
     background-color: var(--mau-chinh);
@@ -751,13 +752,18 @@ h4 {
     width: 100%;
 }
 
-.anh-lon__le {
+.anh-lon__le, .don-dat__le {
     position: relative;
 }
 
 #anh-lon img {
     height: 80vw;
     max-height: 80vh;
+}
+
+.popup h2 {
+    color: #f1f5f9;
+    margin-bottom: 30px;
 }
 
 .popup__x {
