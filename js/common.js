@@ -278,6 +278,9 @@ $(".popup").hide();
 $(".san-pham__anh").click(function () {
     $("#anh-lon").fadeIn(400);
 })
+$(".dat-hang").click(function () {
+    $("#don-dat").fadeIn(400);
+})
 $(".popup__x").click(function () {
     $(".popup").fadeOut(400);
 })
