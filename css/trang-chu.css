@@ -51,10 +51,51 @@ h2 {
 .thong-tin {
     height: 100%;
 }
-
+.khach-hang {
+    margin-top: var(--le-lon);
+    font-size: 11pt;
+}
+@media (min-width: 1200px) {
+    .khach-hang {
+        font-size: 13pt;
+    }
+}
+.khach-hang__xs ul {
+    padding: 0;
+}
 .khach-hang__xs li{
+    line-height: 30px;
     text-align: center;
     width: 100%;
+}
+.khach-hang__md li {
+    width: auto;
+}
+.khach-hang__md ul:nth-child(2) {
+    text-align: center;
+}
+.khach-hang__md ul:nth-child(3) {
+    text-align: right;
+}
+.khach-hang__xl ul:nth-child(2) {
+    text-align: right;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 1;
+    width: 15px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 15px;
+  height: 30px;
+}
+.carousel-control-prev-icon {
+    background: url("../hinh/bieu-tuong/mui-ten-xanh.svg");
+}
+.carousel-control-next-icon {
+    background: url("../hinh/bieu-tuong/mui-ten-xanh.svg");
+    transform: rotate(180deg);
 }
 
 #noi-dung .nut-link {

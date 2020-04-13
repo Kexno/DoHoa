@@ -8,7 +8,12 @@
 #noi-dung img {
     margin-bottom: 30px;
 }
-
+textarea {
+    height: 191px;
+}
+input[type=submit] {
+    width: 100%;
+}
 @media (min-width: 768px) {
 
     #noi-dung p,
