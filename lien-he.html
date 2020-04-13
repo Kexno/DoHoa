@@ -12,132 +12,187 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/lien-he.css">
 
-    <title>Đô Hoa | Trang chủ</title>
+    <title>Liên hệ | Đô Hoa</title>
 </head>
 
 <body>
 
     <!-- CAC THANH PHAN CO DINH CHUNG -->
-    <div class="khung-co-dinh">
-        <!-- Thanh dieu huong -->
-        <div id="dieu-huong" class="khung-ngang --nen-chinh --do-bong">
-            <div id="logo"></div>
 
-            <!-- nut dong mo menu nho -->
-            <div id="nut-menu" class="d-block d-md-none">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+    <!-- Thanh dieu huong -->
+    <div id="dieu-huong" class="khung-ngang --nen-chinh --do-bong">
+        <div id="logo"></div>
 
-            <!-- nut doi che do sang toi -->
-            <label id="chu-de" for="chu-de__an">
-                <input type="checkbox" id="chu-de__an">
-                <div id="__cong-tac"></div>
-                <div id="__bieu-tuong-sang"></div>
-                <div id="__bieu-tuong-toi"></div>
-            </label>
+        <!-- nut dong mo menu nho -->
+        <div id="nut-menu" class="d-block d-md-none">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
 
-            <!-- menu lon -->
-            <div id="menu-lon" class="d-none d-md-block">
-                <a href="lien-he.html" class="menu__kich-hoat menu-lon__muc">Liên hệ</a>
-                <div class="menu-lon__muc menu-lon__nut">
-                    Vật tư
-                    <div class="menu-xo" id="xo-1">
-                        <div class="menu-xo__an"></div>
-                        <a href="vat-tu.html">Xem tất cả</a>
-                        <a href="#">Máy ngành in</a>
-                        <a href="#">Khung in lụa</a>
-                        <a href="#">Keo chụp bản</a>
-                        <a href="#">Dao gạt mực</a>
-                        <a href="#">Bàn in</a>
-                        <a href="#">Mực in</a>
-                        <a href="#">Phim in lụa</a>
-                        <a href="#">Lưới in lụa</a>
-                        <a href="#">Bản lề in</a>
-                        <a href="#">Vật tư khác</a>
-                    </div>
+        <!-- nut doi che do sang toi -->
+        <label id="chu-de" for="chu-de__an">
+            <input type="checkbox" id="chu-de__an">
+            <div id="__cong-tac"></div>
+            <div id="__bieu-tuong-sang"></div>
+            <div id="__bieu-tuong-toi"></div>
+        </label>
+
+        <!-- menu lon -->
+        <div id="menu-lon" class="d-none d-md-block">
+            <a href="lien-he.html" class="menu__kich-hoat menu-lon__muc">Liên hệ</a>
+            <div class="menu-lon__muc menu-lon__nut">
+                Vật tư
+                <div class="menu-xo" id="xo-1">
+                    <div class="menu-xo__an"></div>
+                    <a href="vat-tu.html">Xem tất cả</a>
+                    <a href="vat-tu.html#may-nganh-in">Máy ngành in</a>
+                    <a href="vat-tu.html#khung-in-lua">Khung in lụa</a>
+                    <a href="vat-tu.html#keo-chup-ban">Keo chụp bản</a>
+                    <a href="vat-tu.html#dao-gat-muc">Dao gạt mực</a>
+                    <a href="vat-tu.html#ban-in">Bàn in</a>
+                    <a href="vat-tu.html#muc-in">Mực in</a>
+                    <a href="vat-tu.html#phim-in">Phim in lụa</a>
+                    <a href="vat-tu.html#luoi-in">Lưới in lụa</a>
+                    <a href="vat-tu.html#vat-tu-khac">Vật tư khác</a>
                 </div>
-                <div class="menu-lon__muc menu-lon__nut">
+            </div>
+            <div class="menu-lon__muc menu-lon__nut">
+                Gia công
+                <div class="menu-xo" id="xo-2">
+                    <div class="menu-xo__an"></div>
+                    <a href="gia-cong.html">Xem tất cả</a>
+                    <a href="dich-vu/cang-khung-lua.html">Căng khung lụa</a>
+                    <a href="dich-vu/in-blacklit-film.html">In backlite film</a>
+                    <a href="dich-vu/in-vai-silk.html">In vải silk</a>
+                    <a href="dich-vu/in-decal-luoi.html">In decal lưới</a>
+                    <a href="dich-vu/in-pp.html">In PP</a>
+                    <a href="dich-vu/in-hiflex.html">In hiflex</a>
+                    <a href="dich-vu/in-lua.html">In lụa</a>
+                </div>
+            </div>
+            <a href="index.html" class="menu-lon__muc">Trang chủ</a>
+        </div><!-- /#menu-lon -->
+
+    </div><!-- /#dieu-huong -->
+
+    <!-- menu nho -->
+    <div id="menu-nho" class="--nen-chinh --do-bong row align-items-center justify-content-center">
+        <div class="col-auto">
+            <div class="row ">
+                <a class="menu-nho__muc col-12" href="index.html">Trang chủ</a>
+                <div class="menu-nho__muc menu-nho__nut col-12">
                     Gia công
-                    <div class="menu-xo" id="xo-2">
-                        <div class="menu-xo__an"></div>
-                        <a href="gia-cong.html">Xem tất cả</a>
-                        <a href="gia-cong/cang-khung-lua.html">Căng khung lụa</a>
-                        <a href="gia-cong/in-backlit-film.html">In backlite film</a>
-                        <a href="gia-cong/in-vai-silk.html">In vải silk</a>
-                        <a href="gia-cong/in-decal-luoi.html">In decal lưới</a>
-                        <a href="gia-cong/in-pp.html">In PP</a>
-                        <a href="gia-cong/in-heflex.html">In heflex</a>
-                        <a href="gia-cong/in-lua.html">In lụa</a>
-                    </div>
+                    <a class="menu-nho__tat-ca" href="gia-cong.html">Xem tất cả</a>
                 </div>
-                <a href="index.html" class="menu-lon__muc">Trang chủ</a>
-            </div><!-- /#menu-lon -->
-
-        </div><!-- /#dieu-huong -->
-
-        <!-- menu nho -->
-        <div id="menu-nho" class="--nen-chinh --do-bong row align-items-center justify-content-center">
-            <div class="col-auto">
-                <div class="row ">
-                    <a class="menu-nho__muc col-12" href="index.html" var(--mauvar(--mau-chu-menu-noi)-chu-menu-noi)>Trang chủ</a>
-                    <div class="menu-nho__muc menu-nho__nut col-12">
-                        Gia công
-                        <a class="menu-nho__tat-ca" href="gia-cong.html">Xem tất cả</a>
+                <div class="col-12 menu-phu">
+                    <div class="row justify-content-between">
+                        <ul class="col-auto menu-phu__trai">
+                            <li><a href="dich-vu/cang-khung-lua.html">Căng khung lụa</a></li>
+                            <li><a href="dich-vu/in-blacklit-film.html">In backlit film </a></li>
+                            <li><a href="dich-vu/in-vai-silk.html">In vải silk</a></li>
+                            <li><a href="dich-vu/in-decal-luoi.html">In decal lưới</a></li>
+                        </ul>
+                        <ul class="col-auto menu-phu__phai">
+                            <li><a href="dich-vu/in-pp.html">In PP</a></li>
+                            <li><a href="dich-vu/in-hiflex.html">In hiflex</a></li>
+                            <li><a href="dich-vu/in-lua.html">In lụa</a></li>
+                        </ul>
                     </div>
-                    <div class="col-12 menu-phu">
-                        <div class="row justify-content-between">
-                            <ul class="col-auto menu-phu__trai">
-                                <li><a href="gia-cong/cang-khung-lua.html">Căng khung lụa</a></li>
-                                <li><a href="gia-cong/in-backlit-film.html">In backlit film </a></li>
-                                <li><a href="gia-cong/in-vai-silk.html">In vải silk</a></li>
-                                <li><a href="gia-cong/in-decal-luoi.html">In decal lưới</a></li>
-                            </ul>
-                            <ul class="col-auto menu-phu__phai">
-                                <li><a href="gia-cong/in-pp.html">In PP</a></li>
-                                <li><a href="gia-cong/in-heflex.html">In heflex</a></li>
-                                <li><a href="gia-cong/in-lua.html">In lụa</a></li>
-                            </ul>
-                        </div>
-                    </div><!-- /.menu-phu -->
-                    <div class="menu-nho__muc menu-nho__nut col-12">
-                        Vật tư
-                        <a class="menu-nho__tat-ca" href="vat-tu.html">Xem tất cả</a>
-                    </div>
-                    <div class="col-12 menu-phu">
-                        <div class="row justify-content-between">
-                            <ul class="col-auto menu-phu__trai">
-                                <li><a href="">Máy ngành in</a></li>
-                                <li><a href="">Khung in lụa</a></li>
-                                <li><a href="">Keo chụp bản</a></li>
-                                <li><a href="">Dao gạt mực</a></li>
-                                <li><a href="">Bàn in</a></li>
-                            </ul>
-                            <ul class="col-auto menu-phu__phai">
-                                <li><a href="">Mực in</a></li>
-                                <li><a href="">Phim in lụa</a></li>
-                                <li><a href="">Lưới in lụa</a></li>
-                                <li><a href="">Bản lề in</a></li>
-                                <li><a href="">Vật tư khác</a></li>
-                            </ul>
-                        </div>
-                    </div><!-- /.menu-phu -->
-                    <a class="menu__kich-hoat menu-nho__muc col-12" href="">Liên hệ</a>
+                </div><!-- /.menu-phu -->
+                <div class="menu-nho__muc menu-nho__nut col-12">
+                    Vật tư
+                    <a class="menu-nho__tat-ca" href="vat-tu.html">Xem tất cả</a>
                 </div>
+                <div class="col-12 menu-phu">
+                    <div class="row justify-content-between">
+                        <ul class="col-auto menu-phu__trai">
+                            <li><a href="vat-tu.html#may-nganh-in">Máy ngành in</a></li>
+                            <li><a href="vat-tu.html#khung-in-lua">Khung in lụa</a></li>
+                            <li><a href="vat-tu.html#keo-chup-ban">Keo chụp bản</a></li>
+                            <li><a href="vat-tu.html#dao-gat-muc">Dao gạt mực</a></li>
+                            <li><a href="vat-tu.html#ban-in">Bàn in</a></li>
+                        </ul>
+                        <ul class="col-auto menu-phu__phai">
+                            <li><a href="vat-tu.html#muc-in">Mực in</a></li>
+                            <li><a href="vat-tu.html#phim-in">Phim in lụa</a></li>
+                            <li><a href="vat-tu.html#luoi-in">Lưới in lụa</a></li>
+                            <li><a href="vat-tu.html#vat-tu-khac">Vật tư khác</a></li>
+                        </ul>
+                    </div>
+                </div><!-- /.menu-phu -->
+                <a class="menu__kich-hoat menu-nho__muc col-12" href="lien-he.html">Liên hệ</a>
             </div>
-        </div><!-- /#menu-nho -->
+        </div>
+    </div><!-- /#menu-nho -->
 
-        <!-- Cac nut lien he noi -->
-        <a class="nut-lien-he" href="tel:0983310103"></a>
-        <a class="nut-lien-he" href="skype:giathuan83?chat&text="></a>
-    </div>
+    <!-- Cac nut lien he noi -->
+    <a class="nut-lien-he" href="tel:0983310103"></a>
+    <a class="nut-lien-he" href="skype:giathuan83?chat&text="></a>
 
     <!-- NOI DUNG TRANG -->
 
     <div class="khung-gioi-han" id="noi-dung">
         <section class="row">
-
+            <div class="col-12 col-md-6">
+                <div class="row ban-do">
+                    <h2 class="col-12">Vị trí các chi nhánh</h2>
+                    <div class="col-12 ban-do__chu-thich">Chọn chi nhánh để hiển thị vị trí:</div>
+                    <div class="col-12 ban-do__ds">
+                        <div class="row d-flex d-xl-none">
+                            <div class="col-auto">
+                                <input type="radio" name="dc" value="dc1" id="dc1a" checked>
+                                <label for="dc1a"><span></span>Văn phòng đại diện</label>
+                                <div class="w-100"></div>
+                                <input type="radio" name="dc" value="dc3" id="dc3a">
+                                <label for="dc3a"><span></span>Cơ sở 2</label>
+                            </div>
+                            <div class="col-auto ml-auto mr-auto">
+                                <input type="radio" name="dc" value="dc2" id="dc2a">
+                                <label for="dc2a"><span></span>Cơ sở 1</label>
+                                <div class="w-100"></div>
+                                <input type="radio" name="dc" value="dc4" id="dc4a">
+                                <label for="dc4a"><span></span>Cơ sở 3</label>
+                            </div>                                
+                        </div>
+                        <div class="row d-none d-xl-flex">
+                            <div class="col-auto mr-auto">
+                                <input type="radio" name="dc" value="dc1" id="dc1b" checked>
+                                <label for="dc1b"><span></span>Văn phòng đại diện</label>
+                            </div>
+                            <div class="col-auto ml-auto mr-auto">
+                                <input type="radio" name="dc" value="dc2" id="dc2b">
+                                <label for="dc2b"><span></span>Cơ sở 1</label>
+                            </div>
+                            <div class="col-auto ml-auto mr-auto">
+                                <input type="radio" name="dc" value="dc3" id="dc3b">
+                                <label for="dc3b"><span></span>Cơ sở 2</label>
+                            </div>
+                            <div class="col-auto ml-auto">
+                                <input type="radio" name="dc" value="dc4" id="dc4b">
+                                <label for="dc4b"><span></span>Cơ sở 3</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 gg-maps" style="height: auto">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6698.7286164090665!2d106.75505778685974!3d10.900968258297254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4f4cd9d350c184f4!2zQ8O0bmcgVHkgVE5ISCBN4buZdCBUaMOgbmggVmnDqm4gVGjGsMahbmcgTeG6oWkgxJDDtCBIb2E!5e0!3m2!1svi!2s!4v1586683768891!5m2!1svi!2s" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.691060383763!2d106.76656701435705!3d10.911067059678674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d855dbedfe33%3A0x641692cfca4df335!2zMjJlLCA0IE5ndXnhu4VuIER1LCBwLiBExKkgQW4sIETEqSBBbiwgQsOsbmggRMawxqFuZywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1586765275103!5m2!1svi!2s" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.1029159995514!2d106.84831861435742!3d10.955598058857753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174dc2782328a9f%3A0x5be80bd95c34dd09!2zNjAgUGjhuqFtIFbEg24gVGh14bqtbiwgVMOibiBNYWksIFRow6BuaCBwaOG7kSBCacOqbiBIw7JhLCDEkOG7k25nIE5haSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1586765336497!5m2!1svi!2s" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.6913041850667!2d106.42436226446306!3d20.395613964467167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135fbf63cb7fc9d%3A0xacb3b6a5e4811882!2zVGjDtG4gxJDDtG5nIFRow6BuaCwgQsOsbmggTWluaCwgVHAuIFRow6FpIELDrG5oLCBUaMOhaSBCw6xuaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1586765479208!5m2!1svi!2s" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="row lien-he" style="">
+                    <h2 class="col-12">Để lại thông tin để được tư vấn sớm nhất</h2><form class="col-12">
+                        <input type="text" placeholder="Họ và tên" id="ten" name="ten">
+                        <input type="tel" placeholder="Số điện thoại" id="ten" name="ten">
+                        <textarea placeholder="Nội dung"></textarea>
+                        <input type="submit" value="Gửi">
+                    </form>
+                </div>
+            </div>
         </section>
     </div>
 
@@ -263,7 +318,24 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
     <script src="js/common.js"></script>
+    
+    <script>
+        $("#dc1a, #dc1b").click(function() {
+            $("iframe:nth-child(1)").fadeIn(200);
+            $("iframe:nth-child(2), iframe:nth-child(3), iframe:nth-child(4)").fadeOut(200);
+        })
+        $("#dc2a, #dc2b").click(function() {
+            $("iframe:nth-child(2)").fadeIn(200);
+            $("iframe:nth-child(1), iframe:nth-child(3), iframe:nth-child(4)").fadeOut(200);
+        })
+        $("#dc3a, #dc3b").click(function() {
+            $("iframe:nth-child(3)").fadeIn(200);
+            $("iframe:nth-child(1), iframe:nth-child(2), iframe:nth-child(4)").fadeOut(200);
+        })
+        $("#dc4a, #dc4b").click(function() {
+            $("iframe:nth-child(4)").fadeIn(200);
+            $("iframe:nth-child(1), iframe:nth-child(2), iframe:nth-child(3)").fadeOut(200);
+        })
+    </script>
 
-</body>
-
-</html>
+</body></html>

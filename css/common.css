@@ -9,15 +9,15 @@
     --mau-nen-chinh: #ffffff;
     --mau-nen-phu: #f1f5f9;
     --mau-nut-menu: #7098c6;
+    --nen-nut-chu-de: #a2e0e4;
+    --nen-popup: rgba(88, 98, 132, 0.9);
+    --nen-trong-suot: rgba(255, 255, 255, 0.9);
     /* mau chu (color) */
     --mau-chu-chinh: #586284;
     --mau-chu-noi: #48506c;
     --mau-chu-chim: #c9d4f9;
     --mau-chu-menu: #7098c6;
     --mau-chu-menu-noi: #586284;
-    --nen-nut-chu-de: #a2e0e4;
-    --nen-popup: rgba(88, 98, 132, 0.9);
-    --nen-trong-suot: rgba(255, 255, 255, 0.9);
     /* co chu (font-size) */
     --co-chu-tieu-de: 20pt;
     --co-chu-noi-dung: 12pt;
@@ -82,7 +82,7 @@
     position: fixed;
     top: 0;
     width: 100vw;
-    
+
 }
 
 .khung-ngang {
@@ -218,6 +218,7 @@ h4 {
     h3 {
         font-size: 18pt;
     }
+
     h4 {
         font-size: 16pt;
     }
@@ -267,6 +268,7 @@ h4 {
 .--bo-goc {
     border-radius: var(--bo-goc);
 }
+
 .--do-bong {
     box-shadow: var(--bong-gan);
 }
@@ -612,11 +614,13 @@ h4 {
     transition: all 0.4s;
     z-index: 2000;
 }
+
 @media (min-width: 1290px) {
     .nut-lien-he {
         opacity: 1;
     }
 }
+
 .nut-lien-he:hover {
     opacity: 1;
 }
@@ -654,23 +658,27 @@ h4 {
     top: -60px;
     position: absolute;
 }
+
 #noi-dung {
     min-height: 100vh;
     position: relative;
 }
 
-/* style chung cac muc san pham trng vat tu va san pham */
-.san-pham {
-    margin-bottom: 
-}
-.san-pham__img {
+/* style chung cac muc san pham trang vat tu, san pham, gia cong */
+
+.san-pham__img,
+.dich-vu__img {
     position: relative;
     transition: all 0.4s;
 }
-.san-pham__img:hover {
+
+.san-pham:hover .san-pham__img,
+.dich-vu:hover .dich-vu__img {
     transform: scale(1.05);
 }
-.san-pham__img::before {
+
+.san-pham__img::before,
+.dich-vu__img::before {
     border-radius: var(--bo-goc);
     box-shadow: var(--bong-xa);
     content: "";
@@ -683,9 +691,12 @@ h4 {
     width: 90%;
     z-index: -1;
 }
-.san-pham__img:hover::before { 
+
+.san-pham:hover .san-pham__img::before,
+.dich-vu:hover .dich-vu__img::before {
     opacity: 1;
 }
+
 .san-pham__ten {
     color: var(--mau-chu-chinh);
     font-weight: 600;

@@ -24,6 +24,8 @@ chuDe.addEventListener('change', doiChuDe, false);
 var x = 0;
 var y = 0;
 var z = 0;
+var w = $(window).width();
+var h = $(window).height();
 
 /* Dinh lai vi tri cua nut cong tac thay doi chu de */
 
@@ -219,7 +221,7 @@ $(".menu-nho__nut:eq(1)").click(function () {
     }
 })
 
-$(".menu-phu a").click(function(){
+$(".menu-phu a").click(function () {
     gsap.to("#nut-menu div", {
         duration: 0.2,
         delay: 0.2,
@@ -283,19 +285,19 @@ $(".popup__ngoai").click(function () {
     $(".popup").fadeOut(400);
 })
 
+
+
 /* Banner cac 50% */
 
-var h = $(window).height();
-
 //function banner() {
-    var hh = (h - 60) / 2;
-    $(".carousel-item").css({
-        "height": hh
-    });
+var hh = (h - 60) / 2;
+$(".carousel-item").css({
+    "height": hh
+});
 //}
 
 $(window).resize(function () {
-    var h = $(window).height();
+    h = $(window).height();
     var hh = (h - 60) / 2;
     $(".carousel-item").css({
         "height": hh
@@ -307,3 +309,57 @@ $(window).resize(function () {
 HoverW = $(".san-pham img").width();
 HoverH = HoverW;
 
+/* Lien he */
+
+if (w < 768) {
+    bd = h - 60 - 90 - 32 - 24 - 54 - 10 - 15;
+    if (w < 500) {
+        lh = h - 60 - 64 - 90 - (44 + 15) * 2 - 44 - 60;
+    } else {
+        lh = h - 60 - 32 - 90 - (44 + 15) * 2 - 44 - 60;
+    }
+} else if (w < 992) {
+    bd = h - 60 - 120 - 36 - 28 - 54 - 10 - 30;
+    lh = h - 60 - 120 - 64 - (44 + 15) * 2 - 44 - 75;
+} else if (w < 1200) {
+    bd = h - 60 - 120 - 32 - 28 - 56 - 10 - 30;
+    if (w < 1029) {
+        lh = h - 60 - 64 - 120 - (48 + 15) * 2 - 48 - 65;
+    } else {
+        lh = h - 60 - 32 - 120 - (48 + 15) * 2 - 48 - 65;
+    }
+} else {
+    bd = h - 60 - 120 - 56 - 45 - 10 - 30; 
+    lh = h - 60 - 120 - 77 - (48 + 15) * 2 - 48 - 73;
+}
+
+$(".gg-maps iframe").height(bd);
+$(".lien-he textarea").height(lh);
+$(window).resize(function() {
+        h = $(window).height();
+        w = $(window).width();
+    if (w < 768) {
+        bd = h - 60 - 90 - 32 - 24 - 54 - 10 - 15;
+        if (w < 500) {
+            lh = h - 60 - 64 - 90 - (44 + 15) * 2 - 44 - 60;
+        } else {
+            lh = h - 60 - 32 - 90 - (44 + 15) * 2 - 44 - 60;
+        }
+    } else if (w < 992) {
+        bd = h - 60 - 120 - 36 - 28 - 54 - 10 - 30;
+        lh = h - 60 - 120 - 64 - (44 + 15) * 2 - 44 - 75;
+    } else if (w < 1200) {
+        bd = h - 60 - 120 - 32 - 28 - 56 - 10 - 30;
+        if (w < 1029) {
+            lh = h - 60 - 64 - 120 - (48 + 15) * 2 - 48 - 65;
+        } else {
+            lh = h - 60 - 32 - 120 - (48 + 15) * 2 - 48 - 65;
+        }
+    } else {
+        bd = h - 60 - 120 - 56 - 45 - 10 - 30;
+        lh = h - 60 - 120 - 77 - (48 + 15) * 2 - 48 - 73;
+    }
+
+    $(".gg-maps iframe").height(bd);
+    $(".lien-he textarea").height(lh);
+})

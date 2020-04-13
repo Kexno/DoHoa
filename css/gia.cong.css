@@ -1,18 +1,27 @@
 #noi-dung {
     margin-top: 60px;
 }
+.dich-vu {
+    margin-bottom: 30px;
+}
 .dich-vu__ten {
     margin: 10px 0px 5px 0px;
     text-align: left;
 }
 .dich-vu__mo-ta {
     font-size: 12pt;
+    margin: 0;
     text-align: justify;
 }
 .dich-vu__mo-ta span {
     color: var(--mau-chinh);
 }
-a {text-decoration: none; color: var(--mau-chu-chinh); }
+a {
+    color: var(--mau-chu-chinh);
+0}
+a:hover {
+    color: var(--mau-chu-chinh);
+}
 @media (min-width: 768px) {
     .dich-vu__ten {
         margin: 25px 0px 15px 0px;
