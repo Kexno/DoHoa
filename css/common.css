@@ -296,19 +296,6 @@ h4 {
     color: var(--mau-chinh);
 }
 
-.nut-san-pham {
-    margin-top: 30px;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.xa-hoi {
-    background-color: var(--mau-chinh);
-    height: 30px;
-    margin-left: 15px;
-    width: 30px;
-}
-
 /* = Thanh dieu huong */
 
 #dieu-huong {
@@ -654,6 +641,7 @@ h4 {
 }
 
 /* = NOI DUNG */
+
 .cuon-trang {
     top: -60px;
     position: absolute;
@@ -671,12 +659,10 @@ h4 {
     position: relative;
     transition: all 0.4s;
 }
-
 .san-pham:hover .san-pham__img,
 .dich-vu:hover .dich-vu__img {
     transform: scale(1.05);
 }
-
 .san-pham__img::before,
 .dich-vu__img::before {
     border-radius: var(--bo-goc);
@@ -691,12 +677,10 @@ h4 {
     width: 90%;
     z-index: -1;
 }
-
 .san-pham:hover .san-pham__img::before,
 .dich-vu:hover .dich-vu__img::before {
     opacity: 1;
 }
-
 .san-pham__ten {
     color: var(--mau-chu-chinh);
     font-weight: 600;
@@ -704,11 +688,33 @@ h4 {
     padding-bottom: 25px;
     padding-top: 10px;
 }
-
+.nut-san-pham {
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.xa-hoi {
+    background-color: var(--mau-chinh);
+    height: 30px;
+    margin-left: 15px;
+    width: 30px;
+}
 @media (min-width: 768px) {
     .san-pham__ten {
         padding-top: 25px;
     }
+}
+.xa-hoi:nth-child(1) {
+    background: url("../hinh/bieu-tuong/fb-like.svg");
+}
+.xa-hoi:nth-child(2) {
+    background: url("../hinh/bieu-tuong/fb-share.svg");
+}
+.xa-hoi:nth-child(3) {
+    background: url("../hinh/bieu-tuong/twitter.svg");
+}
+.xa-hoi:nth-child(4) {
+    background: url("../hinh/bieu-tuong/pinterest.svg");
 }
 
 /* Pop-up */
