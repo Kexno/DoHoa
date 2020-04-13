@@ -287,7 +287,9 @@ $(".popup__x").click(function () {
 $(".popup__ngoai").click(function () {
     $(".popup").fadeOut(400);
 })
-
+var ddi = $("#don-dat img").height();
+var th = ddi - 
+$("#don-dat textarea").height(th);
 
 
 /* Banner cac 50% */

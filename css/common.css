@@ -737,6 +737,7 @@ h4 {
 
 .popup {
     background: var(--nen-popup);
+    color: #f1f5f9;
     margin: 0;
     left: 0;
     position: fixed;
@@ -752,8 +753,15 @@ h4 {
     width: 100%;
 }
 
-.anh-lon__le, .don-dat__le {
+.anh-lon__le,
+.don-dat__le {
     position: relative;
+}
+
+.don-dat__le {
+    max-width: 768px;
+    padding: 30px;
+    width: 100%;
 }
 
 #anh-lon img {
@@ -762,8 +770,24 @@ h4 {
 }
 
 .popup h2 {
-    color: #f1f5f9;
     margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+    .popup h2 {
+        margin-bottom: 60px;
+    }
+}
+
+.don-dat__ten {
+    font-size: 16pt;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .don-dat__ten {
+        font-size: 18pt;
+    }
 }
 
 .popup__x {
@@ -799,6 +823,7 @@ h4 {
 
 input[type=text],
 input[type=tel],
+input[type=number],
 textarea {
     background-color: var(--mau-nen-phu);
     border: none;
@@ -809,14 +834,20 @@ textarea {
     padding: 10px 15px;
 }
 
+input[type=number] {
+    margin-bottom: 0;
+}
+
 input[type=text]::placeholder,
 input[type=tel]::placeholder,
+input[type=number]::placeholder,
 textarea::placeholder {
     color: var(--mau-chinh);
 }
 
 input[type=text]:focus,
 input[type=tel]:focus,
+input[type=number]:focus,
 textarea:focus {
     border: none;
     color: var(--mau-chu-chinh);
@@ -827,11 +858,16 @@ input[type=submit] {
     border: none;
     border-radius: var(--bo-goc);
     color: white;
-    margin: 0 33.33%;
-    padding: var(--dem-nut);
-    width: 33.33%;
+    padding: 10px 15px;
 }
 
+@media (min-width: 768px) {
+    input[type=text],
+    input[type=tel],
+    textarea{
+        margin-bottom: 30px;
+    }
+}
 /* FOOTER */
 
 footer {

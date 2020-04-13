@@ -56,7 +56,10 @@ iframe:nth-child(4) {
 textarea {
     min-height: 77px;
 }
-
+input[type=submit] {
+    margin: 0 33.33%;
+    width: 33.33%;
+}
 @media (min-width: 768px) {
     .ban-do {
         height: 100%;

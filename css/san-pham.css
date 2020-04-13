@@ -17,3 +17,12 @@
 #noi-dung img {
     cursor: pointer;
 }
+input {
+    font-size: 12pt;
+}
+textarea {
+    height: 191px;
+}
+input[type=submit] {
+    width: 100%;
+}
